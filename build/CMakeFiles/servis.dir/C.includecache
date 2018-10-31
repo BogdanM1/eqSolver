@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/lustre/home/bogdan/eqSolver/src/conf/cJSON.c
+string.h
+-
+stdio.h
+-
+math.h
+-
+stdlib.h
+-
+float.h
+-
+limits.h
+-
+ctype.h
+-
+cJSON.h
+/lustre/home/bogdan/eqSolver/src/conf/cJSON.h
+
+/lustre/home/bogdan/eqSolver/src/conf/cJSON.h
+stddef.h
+/lustre/home/bogdan/eqSolver/src/conf/stddef.h
+

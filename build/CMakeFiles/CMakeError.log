@@ -1,0 +1,1956 @@
+Performing C SOURCE FILE Test MULTIPASS_TEST_1_petsc_works_minimal failed with the following output:
+Change Dir: /lustre/home/bogdan/eqSolver/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3602333460/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3602333460.dir/build.make CMakeFiles/cmTryCompileExec3602333460.dir/build
+gmake[1]: Entering directory `/lustre/home/bogdan/eqSolver/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /lustre/home/bogdan/eqSolver/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3602333460.dir/src.c.o
+/usr/bin/cc   -DMULTIPASS_TEST_1_petsc_works_minimal -I/opt/software/petsc-3.9.3/include    -o CMakeFiles/cmTryCompileExec3602333460.dir/src.c.o   -c /lustre/home/bogdan/eqSolver/build/CMakeFiles/CMakeTmp/src.c
+In file included from /opt/software/petsc-3.9.3/include/petscis.h:7,
+                 from /opt/software/petsc-3.9.3/include/petscvec.h:9,
+                 from /opt/software/petsc-3.9.3/include/petscmat.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscpc.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscksp.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscsnes.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscts.h:7,
+                 from /lustre/home/bogdan/eqSolver/build/CMakeFiles/CMakeTmp/src.c:3:
+/opt/software/petsc-3.9.3/include/petscsys.h:130:19: error: mpi.h: No such file or directory
+/opt/software/petsc-3.9.3/include/petscsys.h:163:6: error: #error "PETSc was configured with OpenMPI but now appears to be compiling using a non-OpenMPI mpi.h"
+In file included from /opt/software/petsc-3.9.3/include/petscis.h:7,
+                 from /opt/software/petsc-3.9.3/include/petscvec.h:9,
+                 from /opt/software/petsc-3.9.3/include/petscmat.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscpc.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscksp.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscsnes.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscts.h:7,
+                 from /lustre/home/bogdan/eqSolver/build/CMakeFiles/CMakeTmp/src.c:3:
+/opt/software/petsc-3.9.3/include/petscsys.h:253: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘MPIU_ENUM’
+In file included from /opt/software/petsc-3.9.3/include/petscis.h:7,
+                 from /opt/software/petsc-3.9.3/include/petscvec.h:9,
+                 from /opt/software/petsc-3.9.3/include/petscmat.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscpc.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscksp.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscsnes.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscts.h:7,
+                 from /lustre/home/bogdan/eqSolver/build/CMakeFiles/CMakeTmp/src.c:3:
+/opt/software/petsc-3.9.3/include/petscsys.h:463: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘MPIU_BOOL’
+In file included from /opt/software/petsc-3.9.3/include/petscsys.h:468,
+                 from /opt/software/petsc-3.9.3/include/petscis.h:7,
+                 from /opt/software/petsc-3.9.3/include/petscvec.h:9,
+                 from /opt/software/petsc-3.9.3/include/petscmat.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscpc.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscksp.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscsnes.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscts.h:7,
+                 from /lustre/home/bogdan/eqSolver/build/CMakeFiles/CMakeTmp/src.c:3:
+/opt/software/petsc-3.9.3/include/petscmath.h:690: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘MPIU_2SCALAR’
+/opt/software/petsc-3.9.3/include/petscmath.h:693: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘MPIU_2INT’
+In file included from /opt/software/petsc-3.9.3/include/petscis.h:7,
+                 from /opt/software/petsc-3.9.3/include/petscvec.h:9,
+                 from /opt/software/petsc-3.9.3/include/petscmat.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscpc.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscksp.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscsnes.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscts.h:7,
+                 from /lustre/home/bogdan/eqSolver/build/CMakeFiles/CMakeTmp/src.c:3:
+/opt/software/petsc-3.9.3/include/petscsys.h:586: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘PETSC_COMM_WORLD’
+/opt/software/petsc-3.9.3/include/petscsys.h:607: error: expected declaration specifiers or ‘...’ before ‘MPI_Comm’
+/opt/software/petsc-3.9.3/include/petscsys.h:607: error: expected declaration specifiers or ‘...’ before ‘MPI_Comm’
+/opt/software/petsc-3.9.3/include/petscsys.h:608: error: expected ‘)’ before ‘*’ token
+/opt/software/petsc-3.9.3/include/petscsys.h:609: error: expected ‘)’ before ‘*’ token
+In file included from /opt/software/petsc-3.9.3/include/petscis.h:7,
+                 from /opt/software/petsc-3.9.3/include/petscvec.h:9,
+                 from /opt/software/petsc-3.9.3/include/petscmat.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscpc.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscksp.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscsnes.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscts.h:7,
+                 from /lustre/home/bogdan/eqSolver/build/CMakeFiles/CMakeTmp/src.c:3:
+/opt/software/petsc-3.9.3/include/petscsys.h:1432: error: expected declaration specifiers or ‘...’ before ‘MPI_Datatype’
+/opt/software/petsc-3.9.3/include/petscsys.h:1433: error: expected ‘)’ before ‘PetscDataType’
+/opt/software/petsc-3.9.3/include/petscsys.h:1470: error: expected ‘)’ before ‘const’
+/opt/software/petsc-3.9.3/include/petscsys.h:1494: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘MPIU_MAXSUM_OP’
+/opt/software/petsc-3.9.3/include/petscsys.h:1507: error: expected ‘)’ before ‘const’
+/opt/software/petsc-3.9.3/include/petscsys.h:1509: error: expected declaration specifiers or ‘...’ before ‘MPI_Datatype’
+/opt/software/petsc-3.9.3/include/petscsys.h:1509: error: expected declaration specifiers or ‘...’ before ‘MPI_Comm’
+/opt/software/petsc-3.9.3/include/petscsys.h:1510: error: expected declaration specifiers or ‘...’ before ‘MPI_Datatype’
+/opt/software/petsc-3.9.3/include/petscsys.h:1510: error: expected declaration specifiers or ‘...’ before ‘MPI_Comm’
+In file included from /opt/software/petsc-3.9.3/include/petscsys.h:1586,
+                 from /opt/software/petsc-3.9.3/include/petscis.h:7,
+                 from /opt/software/petsc-3.9.3/include/petscvec.h:9,
+                 from /opt/software/petsc-3.9.3/include/petscmat.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscpc.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscksp.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscsnes.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscts.h:7,
+                 from /lustre/home/bogdan/eqSolver/build/CMakeFiles/CMakeTmp/src.c:3:
+/opt/software/petsc-3.9.3/include/petscerror.h:546: error: expected ‘)’ before ‘int’
+/opt/software/petsc-3.9.3/include/petscerror.h:550: error: expected ‘)’ before ‘int’
+/opt/software/petsc-3.9.3/include/petscerror.h:551: error: expected ‘)’ before ‘int’
+/opt/software/petsc-3.9.3/include/petscerror.h:552: error: expected ‘)’ before ‘int’
+/opt/software/petsc-3.9.3/include/petscerror.h:553: error: expected ‘)’ before ‘int’
+/opt/software/petsc-3.9.3/include/petscerror.h:554: error: expected ‘)’ before ‘int’
+/opt/software/petsc-3.9.3/include/petscerror.h:555: error: expected ‘)’ before ‘int’
+/opt/software/petsc-3.9.3/include/petscerror.h:556: error: expected ‘)’ before ‘int’
+/opt/software/petsc-3.9.3/include/petscerror.h:557: error: expected ‘)’ before ‘int’
+/opt/software/petsc-3.9.3/include/petscerror.h:557: error: expected ‘;’, ‘,’ or ‘)’ before ‘void’
+In file included from /opt/software/petsc-3.9.3/include/petscis.h:7,
+                 from /opt/software/petsc-3.9.3/include/petscvec.h:9,
+                 from /opt/software/petsc-3.9.3/include/petscmat.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscpc.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscksp.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscsnes.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscts.h:7,
+                 from /lustre/home/bogdan/eqSolver/build/CMakeFiles/CMakeTmp/src.c:3:
+/opt/software/petsc-3.9.3/include/petscsys.h:1638: error: expected declaration specifiers or ‘...’ before ‘MPI_Comm’
+/opt/software/petsc-3.9.3/include/petscsys.h:1661: error: expected ‘)’ before ‘PetscMPIInt’
+In file included from /opt/software/petsc-3.9.3/include/petscsys.h:1664,
+                 from /opt/software/petsc-3.9.3/include/petscis.h:7,
+                 from /opt/software/petsc-3.9.3/include/petscvec.h:9,
+                 from /opt/software/petsc-3.9.3/include/petscmat.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscpc.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscksp.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscsnes.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscts.h:7,
+                 from /lustre/home/bogdan/eqSolver/build/CMakeFiles/CMakeTmp/src.c:3:
+/opt/software/petsc-3.9.3/include/petscoptions.h:42: error: expected ‘)’ before ‘PetscOptions’
+/opt/software/petsc-3.9.3/include/petscoptions.h:55: error: expected ‘)’ before ‘const’
+/opt/software/petsc-3.9.3/include/petscoptions.h:97: error: expected specifier-qualifier-list before ‘MPI_Comm’
+/opt/software/petsc-3.9.3/include/petscoptions.h:215: error: expected declaration specifiers or ‘...’ before ‘MPI_Comm’
+In file included from /opt/software/petsc-3.9.3/include/petscis.h:7,
+                 from /opt/software/petsc-3.9.3/include/petscvec.h:9,
+                 from /opt/software/petsc-3.9.3/include/petscmat.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscpc.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscksp.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscsnes.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscts.h:7,
+                 from /lustre/home/bogdan/eqSolver/build/CMakeFiles/CMakeTmp/src.c:3:
+/opt/software/petsc-3.9.3/include/petscsys.h:1666: error: expected ‘)’ before ‘PetscInt’
+In file included from /opt/software/petsc-3.9.3/include/petscis.h:7,
+                 from /opt/software/petsc-3.9.3/include/petscvec.h:9,
+                 from /opt/software/petsc-3.9.3/include/petscmat.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscpc.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscksp.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscsnes.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscts.h:7,
+                 from /lustre/home/bogdan/eqSolver/build/CMakeFiles/CMakeTmp/src.c:3:
+/opt/software/petsc-3.9.3/include/petscsys.h:1755: error: expected ‘)’ before ‘FILE’
+/opt/software/petsc-3.9.3/include/petscsys.h:1769: error: expected ‘)’ before ‘PetscDLLibrary’
+/opt/software/petsc-3.9.3/include/petscsys.h:1770: error: expected ‘)’ before ‘PetscDLLibrary’
+/opt/software/petsc-3.9.3/include/petscsys.h:1771: error: expected ‘)’ before ‘PetscDLLibrary’
+/opt/software/petsc-3.9.3/include/petscsys.h:1773: error: expected ‘)’ before ‘const’
+/opt/software/petsc-3.9.3/include/petscsys.h:1774: error: expected ‘)’ before ‘const’
+/opt/software/petsc-3.9.3/include/petscsys.h:1780: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscsys.h:1781: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscsys.h:1782: error: expected ‘)’ before ‘PetscMPIInt’
+/opt/software/petsc-3.9.3/include/petscsys.h:1783: error: expected ‘)’ before ‘PetscMPIInt’
+/opt/software/petsc-3.9.3/include/petscsys.h:1786: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscsys.h:1787: error: expected ‘)’ before ‘PetscReal’
+/opt/software/petsc-3.9.3/include/petscsys.h:1822: error: expected ‘)’ before ‘const’
+In file included from /opt/software/petsc-3.9.3/include/petscsys.h:1827,
+                 from /opt/software/petsc-3.9.3/include/petscis.h:7,
+                 from /opt/software/petsc-3.9.3/include/petscvec.h:9,
+                 from /opt/software/petsc-3.9.3/include/petscmat.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscpc.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscksp.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscsnes.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscts.h:7,
+                 from /lustre/home/bogdan/eqSolver/build/CMakeFiles/CMakeTmp/src.c:3:
+/opt/software/petsc-3.9.3/include/petsclog.h:315: error: expected declaration specifiers or ‘...’ before ‘MPI_Datatype’
+/opt/software/petsc-3.9.3/include/petsclog.h: In function ‘PetscMPITypeSize’:
+/opt/software/petsc-3.9.3/include/petsclog.h:319: error: ‘type’ undeclared (first use in this function)
+/opt/software/petsc-3.9.3/include/petsclog.h:319: error: (Each undeclared identifier is reported only once
+/opt/software/petsc-3.9.3/include/petsclog.h:319: error: for each function it appears in.)
+/opt/software/petsc-3.9.3/include/petsclog.h:319: error: ‘MPI_DATATYPE_NULL’ undeclared (first use in this function)
+/opt/software/petsc-3.9.3/include/petsclog.h:320: error: ‘MPI_COMM_SELF’ undeclared (first use in this function)
+/opt/software/petsc-3.9.3/include/petsclog.h: At top level:
+/opt/software/petsc-3.9.3/include/petsclog.h:325: error: expected ‘)’ before ‘comm’
+/opt/software/petsc-3.9.3/include/petsclog.h:342: error: expected ‘)’ before ‘comm’
+In file included from /opt/software/petsc-3.9.3/include/petscis.h:7,
+                 from /opt/software/petsc-3.9.3/include/petscvec.h:9,
+                 from /opt/software/petsc-3.9.3/include/petscmat.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscpc.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscksp.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscsnes.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscts.h:7,
+                 from /lustre/home/bogdan/eqSolver/build/CMakeFiles/CMakeTmp/src.c:3:
+/opt/software/petsc-3.9.3/include/petscsys.h:1833: error: expected ‘)’ before ‘const’
+/opt/software/petsc-3.9.3/include/petscsys.h:1834: error: expected ‘)’ before ‘FILE’
+/opt/software/petsc-3.9.3/include/petscsys.h:1835: error: expected ‘)’ before ‘FILE’
+/opt/software/petsc-3.9.3/include/petscsys.h:1836: error: expected ‘)’ before ‘const’
+/opt/software/petsc-3.9.3/include/petscsys.h:1842: error: expected ‘)’ before ‘const’
+/opt/software/petsc-3.9.3/include/petscsys.h:1845: error: expected ‘)’ before ‘const’
+/opt/software/petsc-3.9.3/include/petscsys.h:1846: error: expected ‘)’ before ‘FILE’
+/opt/software/petsc-3.9.3/include/petscsys.h:1850: error: expected ‘)’ before ‘const’
+/opt/software/petsc-3.9.3/include/petscsys.h:1851: error: expected ‘)’ before ‘FILE’
+/opt/software/petsc-3.9.3/include/petscsys.h:1852: error: expected ‘)’ before ‘FILE’
+/opt/software/petsc-3.9.3/include/petscsys.h:1853: error: expected ‘)’ before ‘FILE’
+/opt/software/petsc-3.9.3/include/petscsys.h:1854: error: expected ‘)’ before ‘const’
+/opt/software/petsc-3.9.3/include/petscsys.h:1855: error: expected ‘)’ before ‘const’
+/opt/software/petsc-3.9.3/include/petscsys.h:1870: error: expected ‘)’ before ‘PetscContainer’
+In file included from /opt/software/petsc-3.9.3/include/petscis.h:7,
+                 from /opt/software/petsc-3.9.3/include/petscvec.h:9,
+                 from /opt/software/petsc-3.9.3/include/petscmat.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscpc.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscksp.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscsnes.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscts.h:7,
+                 from /lustre/home/bogdan/eqSolver/build/CMakeFiles/CMakeTmp/src.c:3:
+/opt/software/petsc-3.9.3/include/petscsys.h:2241: error: expected ‘)’ before ‘void’
+/opt/software/petsc-3.9.3/include/petscsys.h:2242: error: expected ‘)’ before ‘void’
+/opt/software/petsc-3.9.3/include/petscsys.h: In function ‘PetscIntMultError’:
+/opt/software/petsc-3.9.3/include/petscsys.h:2454: error: ‘MPI_COMM_SELF’ undeclared (first use in this function)
+/opt/software/petsc-3.9.3/include/petscsys.h: In function ‘PetscIntSumError’:
+/opt/software/petsc-3.9.3/include/petscsys.h:2489: error: ‘MPI_COMM_SELF’ undeclared (first use in this function)
+In file included from /opt/software/petsc-3.9.3/include/petscis.h:7,
+                 from /opt/software/petsc-3.9.3/include/petscvec.h:9,
+                 from /opt/software/petsc-3.9.3/include/petscmat.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscpc.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscksp.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscsnes.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscts.h:7,
+                 from /lustre/home/bogdan/eqSolver/build/CMakeFiles/CMakeTmp/src.c:3:
+/opt/software/petsc-3.9.3/include/petscsys.h: At top level:
+/opt/software/petsc-3.9.3/include/petscsys.h:2665: error: expected ‘)’ before ‘PetscRandom’
+/opt/software/petsc-3.9.3/include/petscsys.h:2686: error: expected ‘)’ before ‘int’
+/opt/software/petsc-3.9.3/include/petscsys.h:2687: error: expected ‘)’ before ‘int’
+/opt/software/petsc-3.9.3/include/petscsys.h:2691: error: expected ‘)’ before ‘PetscBool’
+/opt/software/petsc-3.9.3/include/petscsys.h:2692: error: expected ‘)’ before ‘PetscBool’
+/opt/software/petsc-3.9.3/include/petscsys.h:2693: error: expected ‘)’ before ‘char’
+/opt/software/petsc-3.9.3/include/petscsys.h:2694: error: expected ‘)’ before ‘const’
+/opt/software/petsc-3.9.3/include/petscsys.h:2695: error: expected ‘)’ before ‘const’
+/opt/software/petsc-3.9.3/include/petscsys.h:2722: error: expected ‘)’ before ‘int’
+/opt/software/petsc-3.9.3/include/petscsys.h:2732: error: expected ‘)’ before ‘const’
+/opt/software/petsc-3.9.3/include/petscsys.h:2733: error: expected ‘)’ before ‘PetscMPIInt’
+/opt/software/petsc-3.9.3/include/petscsys.h:2734: error: expected ‘)’ before ‘PetscMPIInt’
+/opt/software/petsc-3.9.3/include/petscsys.h:2735: error: expected ‘)’ before ‘PetscMPIInt’
+/opt/software/petsc-3.9.3/include/petscsys.h:2736: error: expected ‘)’ before ‘PetscMPIInt’
+/opt/software/petsc-3.9.3/include/petscsys.h:2737: error: expected ‘)’ before ‘PetscMPIInt’
+/opt/software/petsc-3.9.3/include/petscsys.h:2739: error: expected ‘)’ before ‘PetscMPIInt’
+/opt/software/petsc-3.9.3/include/petscsys.h:2743: error: expected ‘)’ before ‘PetscMPIInt’
+/opt/software/petsc-3.9.3/include/petscsys.h:2772: error: expected ‘)’ before ‘PetscBuildTwoSidedType’
+/opt/software/petsc-3.9.3/include/petscsys.h:2773: error: expected ‘)’ before ‘PetscBuildTwoSidedType’
+/opt/software/petsc-3.9.3/include/petscsys.h:2775: error: expected ‘)’ before ‘PetscBool’
+/opt/software/petsc-3.9.3/include/petscsys.h:2820: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘PetscObjectComm’
+/opt/software/petsc-3.9.3/include/petscsys.h:2864: error: expected specifier-qualifier-list before ‘MPI_Comm’
+/opt/software/petsc-3.9.3/include/petscsys.h:2874: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘PetscSubcommParent’
+/opt/software/petsc-3.9.3/include/petscsys.h:2875: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘PetscSubcommChild’
+/opt/software/petsc-3.9.3/include/petscsys.h:2876: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘PetscSubcommContiguousParent’
+/opt/software/petsc-3.9.3/include/petscsys.h:2877: error: expected ‘)’ before ‘PetscSubcomm’
+/opt/software/petsc-3.9.3/include/petscsys.h:2908: error: expected ‘)’ before ‘PetscCommShared’
+/opt/software/petsc-3.9.3/include/petscsys.h:2910: error: expected declaration specifiers or ‘...’ before ‘MPI_Comm’
+In file included from /opt/software/petsc-3.9.3/include/petscis.h:7,
+                 from /opt/software/petsc-3.9.3/include/petscvec.h:9,
+                 from /opt/software/petsc-3.9.3/include/petscmat.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscpc.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscksp.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscsnes.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscts.h:7,
+                 from /lustre/home/bogdan/eqSolver/build/CMakeFiles/CMakeTmp/src.c:3:
+/opt/software/petsc-3.9.3/include/petscsys.h: In function ‘PetscCitationsRegister’:
+/opt/software/petsc-3.9.3/include/petscsys.h:2971: error: ‘MPI_COMM_SELF’ undeclared (first use in this function)
+/opt/software/petsc-3.9.3/include/petscsys.h: At top level:
+/opt/software/petsc-3.9.3/include/petscsys.h:2979: error: expected ‘)’ before ‘char’
+/opt/software/petsc-3.9.3/include/petscsys.h:2980: error: expected ‘)’ before ‘const’
+/opt/software/petsc-3.9.3/include/petscsys.h:2981: error: expected ‘)’ before ‘const’
+/opt/software/petsc-3.9.3/include/petscsys.h:2983: error: expected ‘)’ before ‘char’
+/opt/software/petsc-3.9.3/include/petscsys.h:2984: error: expected ‘)’ before ‘const’
+/opt/software/petsc-3.9.3/include/petscsys.h:2986: error: expected ‘)’ before ‘const’
+/opt/software/petsc-3.9.3/include/petscsys.h:2988: error: expected ‘)’ before ‘const’
+/opt/software/petsc-3.9.3/include/petscsys.h:2989: error: expected ‘)’ before ‘const’
+/opt/software/petsc-3.9.3/include/petscsys.h:3035: error: expected ‘)’ before ‘PetscMPIInt’
+/opt/software/petsc-3.9.3/include/petscsys.h:3036: error: expected ‘)’ before ‘PetscMPIInt’
+In file included from /opt/software/petsc-3.9.3/include/petscvec.h:9,
+                 from /opt/software/petsc-3.9.3/include/petscmat.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscpc.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscksp.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscsnes.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscts.h:7,
+                 from /lustre/home/bogdan/eqSolver/build/CMakeFiles/CMakeTmp/src.c:3:
+/opt/software/petsc-3.9.3/include/petscis.h:33: error: expected ‘)’ before ‘IS’
+/opt/software/petsc-3.9.3/include/petscis.h:38: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscis.h:40: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscis.h:42: error: expected ‘)’ before ‘PetscInt’
+In file included from /opt/software/petsc-3.9.3/include/petscvec.h:9,
+                 from /opt/software/petsc-3.9.3/include/petscmat.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscpc.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscksp.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscsnes.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscts.h:7,
+                 from /lustre/home/bogdan/eqSolver/build/CMakeFiles/CMakeTmp/src.c:3:
+/opt/software/petsc-3.9.3/include/petscis.h:94: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscis.h:95: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscis.h:99: error: expected declaration specifiers or ‘...’ before ‘MPI_Comm’
+/opt/software/petsc-3.9.3/include/petscis.h:131: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscis.h:153: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscis.h:179: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscis.h:181: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscis.h:202: error: expected specifier-qualifier-list before ‘MPI_Comm’
+/opt/software/petsc-3.9.3/include/petscis.h: In function ‘PetscLayoutFindOwner’:
+/opt/software/petsc-3.9.3/include/petscis.h:239: error: ‘struct _n_PetscLayout’ has no member named ‘n’
+/opt/software/petsc-3.9.3/include/petscis.h:239: error: ‘struct _n_PetscLayout’ has no member named ‘N’
+/opt/software/petsc-3.9.3/include/petscis.h:239: error: ‘struct _n_PetscLayout’ has no member named ‘range’
+/opt/software/petsc-3.9.3/include/petscis.h:239: error: ‘MPI_COMM_SELF’ undeclared (first use in this function)
+/opt/software/petsc-3.9.3/include/petscis.h:240: error: ‘struct _n_PetscLayout’ has no member named ‘N’
+/opt/software/petsc-3.9.3/include/petscis.h:241: error: ‘struct _n_PetscLayout’ has no member named ‘comm’
+/opt/software/petsc-3.9.3/include/petscis.h:244: error: ‘struct _n_PetscLayout’ has no member named ‘range’
+/opt/software/petsc-3.9.3/include/petscis.h: In function ‘PetscLayoutFindOwnerIndex’:
+/opt/software/petsc-3.9.3/include/petscis.h:276: error: ‘struct _n_PetscLayout’ has no member named ‘n’
+/opt/software/petsc-3.9.3/include/petscis.h:276: error: ‘struct _n_PetscLayout’ has no member named ‘N’
+/opt/software/petsc-3.9.3/include/petscis.h:276: error: ‘struct _n_PetscLayout’ has no member named ‘range’
+/opt/software/petsc-3.9.3/include/petscis.h:276: error: ‘MPI_COMM_SELF’ undeclared (first use in this function)
+/opt/software/petsc-3.9.3/include/petscis.h:277: error: ‘struct _n_PetscLayout’ has no member named ‘N’
+/opt/software/petsc-3.9.3/include/petscis.h:278: error: ‘struct _n_PetscLayout’ has no member named ‘comm’
+/opt/software/petsc-3.9.3/include/petscis.h:281: error: ‘struct _n_PetscLayout’ has no member named ‘range’
+/opt/software/petsc-3.9.3/include/petscis.h:285: error: ‘struct _n_PetscLayout’ has no member named ‘range’
+/opt/software/petsc-3.9.3/include/petscis.h: At top level:
+/opt/software/petsc-3.9.3/include/petscis.h:289: error: expected ‘)’ before ‘PetscLayout’
+/opt/software/petsc-3.9.3/include/petscis.h:308: error: expected ‘)’ before ‘PetscSection’
+/opt/software/petsc-3.9.3/include/petscis.h:358: error: expected ‘)’ before ‘PetscSection’
+/opt/software/petsc-3.9.3/include/petscis.h:359: error: expected ‘)’ before ‘PetscSection’
+/opt/software/petsc-3.9.3/include/petscis.h:387: error: expected ‘)’ before ‘PetscSectionSym’
+In file included from /opt/software/petsc-3.9.3/include/petscvec.h:10,
+                 from /opt/software/petsc-3.9.3/include/petscmat.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscpc.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscksp.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscsnes.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscts.h:7,
+                 from /lustre/home/bogdan/eqSolver/build/CMakeFiles/CMakeTmp/src.c:3:
+/opt/software/petsc-3.9.3/include/petscviewer.h:40: error: expected ‘)’ before ‘PetscViewer’
+/opt/software/petsc-3.9.3/include/petscviewer.h:42: error: expected ‘)’ before ‘FILE’
+/opt/software/petsc-3.9.3/include/petscviewer.h:44: error: expected ‘)’ before ‘const’
+/opt/software/petsc-3.9.3/include/petscviewer.h:46: error: expected ‘)’ before ‘const’
+/opt/software/petsc-3.9.3/include/petscviewer.h:52: error: expected declaration specifiers or ‘...’ before ‘MPI_File’
+/opt/software/petsc-3.9.3/include/petscviewer.h:53: error: expected declaration specifiers or ‘...’ before ‘MPI_Offset’
+/opt/software/petsc-3.9.3/include/petscviewer.h:54: error: expected declaration specifiers or ‘...’ before ‘MPI_Offset’
+/opt/software/petsc-3.9.3/include/petscviewer.h:57: error: expected ‘)’ before ‘const’
+/opt/software/petsc-3.9.3/include/petscviewer.h:58: error: expected ‘)’ before ‘char’
+/opt/software/petsc-3.9.3/include/petscviewer.h:59: error: expected ‘)’ before ‘const’
+/opt/software/petsc-3.9.3/include/petscviewer.h:70: error: expected ‘)’ before ‘int’
+/opt/software/petsc-3.9.3/include/petscviewer.h:71: error: expected ‘)’ before ‘const’
+/opt/software/petsc-3.9.3/include/petscviewer.h:72: error: expected ‘)’ before ‘const’
+/opt/software/petsc-3.9.3/include/petscviewer.h:82: error: expected ‘)’ before ‘PetscViewerGLVisType’
+In file included from /opt/software/petsc-3.9.3/include/petscvec.h:10,
+                 from /opt/software/petsc-3.9.3/include/petscmat.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscpc.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscksp.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscsnes.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscts.h:7,
+                 from /lustre/home/bogdan/eqSolver/build/CMakeFiles/CMakeTmp/src.c:3:
+/opt/software/petsc-3.9.3/include/petscviewer.h:90: error: expected declaration specifiers or ‘...’ before ‘MPI_Comm’
+/opt/software/petsc-3.9.3/include/petscviewer.h:91: error: expected declaration specifiers or ‘...’ before ‘MPI_Comm’
+/opt/software/petsc-3.9.3/include/petscviewer.h:156: error: expected ‘)’ before ‘const’
+/opt/software/petsc-3.9.3/include/petscviewer.h:235: error: expected ‘)’ before ‘const’
+/opt/software/petsc-3.9.3/include/petscviewer.h:240: warning: parameter names (without types) in function declaration
+/opt/software/petsc-3.9.3/include/petscviewer.h:241: error: expected ‘)’ before ‘PetscViewer’
+/opt/software/petsc-3.9.3/include/petscviewer.h:242: warning: parameter names (without types) in function declaration
+/opt/software/petsc-3.9.3/include/petscviewer.h:243: error: expected ‘)’ before ‘PetscViewer’
+/opt/software/petsc-3.9.3/include/petscviewer.h:244: warning: parameter names (without types) in function declaration
+/opt/software/petsc-3.9.3/include/petscviewer.h:245: warning: parameter names (without types) in function declaration
+/opt/software/petsc-3.9.3/include/petscviewer.h:246: warning: parameter names (without types) in function declaration
+/opt/software/petsc-3.9.3/include/petscviewer.h:247: warning: parameter names (without types) in function declaration
+/opt/software/petsc-3.9.3/include/petscviewer.h:248: warning: parameter names (without types) in function declaration
+/opt/software/petsc-3.9.3/include/petscviewer.h:249: warning: parameter names (without types) in function declaration
+/opt/software/petsc-3.9.3/include/petscviewer.h:355: error: expected ‘)’ before ‘PetscViewers’
+In file included from /opt/software/petsc-3.9.3/include/petscmat.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscpc.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscksp.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscsnes.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscts.h:7,
+                 from /lustre/home/bogdan/eqSolver/build/CMakeFiles/CMakeTmp/src.c:3:
+/opt/software/petsc-3.9.3/include/petscvec.h:142: error: expected ‘)’ before ‘Vec’
+/opt/software/petsc-3.9.3/include/petscvec.h:143: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscvec.h:144: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscvec.h:145: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscvec.h:146: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscvec.h:147: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscvec.h:148: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscvec.h:345: error: expected ‘)’ before ‘VecScatter’
+/opt/software/petsc-3.9.3/include/petscvec.h:435: warning: parameter names (without types) in function declaration
+/opt/software/petsc-3.9.3/include/petscvec.h: In function ‘VecGetArrayPair’:
+/opt/software/petsc-3.9.3/include/petscvec.h:475: error: ‘MPI_COMM_SELF’ undeclared (first use in this function)
+/opt/software/petsc-3.9.3/include/petscvec.h: In function ‘VecRestoreArrayPair’:
+/opt/software/petsc-3.9.3/include/petscvec.h:509: error: ‘MPI_COMM_SELF’ undeclared (first use in this function)
+/opt/software/petsc-3.9.3/include/petscvec.h: At top level:
+/opt/software/petsc-3.9.3/include/petscvec.h:542: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscvec.h:543: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscvec.h:544: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscvec.h:545: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscvec.h:595: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscvec.h:596: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscvec.h:626: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscvec.h:640: error: expected ‘)’ before ‘Vec’
+/opt/software/petsc-3.9.3/include/petscvec.h:672: error: expected ‘)’ before ‘VecTagger’
+In file included from /opt/software/petsc-3.9.3/include/petscpc.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscksp.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscsnes.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscts.h:7,
+                 from /lustre/home/bogdan/eqSolver/build/CMakeFiles/CMakeTmp/src.c:3:
+/opt/software/petsc-3.9.3/include/petscmat.h:185: error: expected ‘)’ before ‘Mat’
+/opt/software/petsc-3.9.3/include/petscmat.h:216: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscmat.h:217: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscmat.h:221: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscmat.h:222: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscmat.h:223: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscmat.h:224: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscmat.h:225: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscmat.h:226: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscmat.h:227: error: expected ‘)’ before ‘Mat’
+/opt/software/petsc-3.9.3/include/petscmat.h:229: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscmat.h:230: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscmat.h:231: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscmat.h:233: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscmat.h:234: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscmat.h:236: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscmat.h:237: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscmat.h:242: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscmat.h:247: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscmat.h:248: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscmat.h:249: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscmat.h:251: error: expected ‘)’ before ‘VecScatter’
+/opt/software/petsc-3.9.3/include/petscmat.h:254: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscmat.h:257: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscmat.h:261: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscmat.h:262: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscmat.h:553: error: expected ‘)’ before ‘Mat’
+/opt/software/petsc-3.9.3/include/petscmat.h:554: error: expected ‘)’ before ‘Mat’
+/opt/software/petsc-3.9.3/include/petscmat.h:610: error: expected declaration specifiers or ‘...’ before ‘MPI_Comm’
+/opt/software/petsc-3.9.3/include/petscmat.h:611: error: expected declaration specifiers or ‘...’ before ‘MPI_Comm’
+/opt/software/petsc-3.9.3/include/petscmat.h:614: error: expected ‘)’ before ‘Mat’
+/opt/software/petsc-3.9.3/include/petscmat.h:1011: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscmat.h:1012: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscmat.h:1013: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscmat.h:1014: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscmat.h:1328: error: expected ‘)’ before ‘MatPartitioning’
+/opt/software/petsc-3.9.3/include/petscmat.h:1595: error: expected ‘)’ before ‘PetscBool’
+/opt/software/petsc-3.9.3/include/petscmat.h:1624: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscmat.h:1804: error: expected ‘)’ before ‘PetscInt’
+In file included from /opt/software/petsc-3.9.3/include/petscksp.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscsnes.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscts.h:7,
+                 from /lustre/home/bogdan/eqSolver/build/CMakeFiles/CMakeTmp/src.c:3:
+/opt/software/petsc-3.9.3/include/petscpc.h:20: error: expected ‘)’ before ‘PC’
+In file included from /opt/software/petsc-3.9.3/include/petscksp.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscsnes.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscts.h:7,
+                 from /lustre/home/bogdan/eqSolver/build/CMakeFiles/CMakeTmp/src.c:3:
+/opt/software/petsc-3.9.3/include/petscpc.h:307: error: expected declaration specifiers or ‘...’ before ‘MPI_Comm’
+In file included from /opt/software/petsc-3.9.3/include/petscsnes.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscts.h:7,
+                 from /lustre/home/bogdan/eqSolver/build/CMakeFiles/CMakeTmp/src.c:3:
+/opt/software/petsc-3.9.3/include/petscksp.h:82: error: expected ‘)’ before ‘KSP’
+In file included from /opt/software/petsc-3.9.3/include/petscsnes.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscts.h:7,
+                 from /lustre/home/bogdan/eqSolver/build/CMakeFiles/CMakeTmp/src.c:3:
+/opt/software/petsc-3.9.3/include/petscksp.h:632: error: expected ‘)’ before ‘const’
+/opt/software/petsc-3.9.3/include/petscksp.h:634: error: expected ‘)’ before ‘const’
+/opt/software/petsc-3.9.3/include/petscksp.h:665: error: expected ‘)’ before ‘KSPGuess’
+In file included from /opt/software/petsc-3.9.3/include/petscts.h:7,
+                 from /lustre/home/bogdan/eqSolver/build/CMakeFiles/CMakeTmp/src.c:3:
+/opt/software/petsc-3.9.3/include/petscsnes.h:56: error: expected ‘)’ before ‘SNES’
+In file included from /opt/software/petsc-3.9.3/include/petscts.h:7,
+                 from /lustre/home/bogdan/eqSolver/build/CMakeFiles/CMakeTmp/src.c:3:
+/opt/software/petsc-3.9.3/include/petscsnes.h:126: error: expected ‘)’ before ‘const’
+/opt/software/petsc-3.9.3/include/petscsnes.h:166: error: expected ‘)’ before ‘const’
+/opt/software/petsc-3.9.3/include/petscsnes.h:543: error: expected ‘)’ before ‘SNESLineSearch’
+/opt/software/petsc-3.9.3/include/petscsnes.h:831: error: expected declaration specifiers or ‘...’ before ‘MPI_Comm’
+In file included from /lustre/home/bogdan/eqSolver/build/CMakeFiles/CMakeTmp/src.c:3:
+/opt/software/petsc-3.9.3/include/petscts.h:219: error: expected ‘)’ before ‘TS’
+/opt/software/petsc-3.9.3/include/petscts.h:283: error: expected ‘)’ before ‘TSTrajectory’
+/opt/software/petsc-3.9.3/include/petscts.h:350: error: expected ‘)’ before ‘const’
+/opt/software/petsc-3.9.3/include/petscts.h:547: error: expected ‘)’ before ‘const’
+/opt/software/petsc-3.9.3/include/petscts.h:570: error: expected ‘)’ before ‘const’
+/opt/software/petsc-3.9.3/include/petscts.h:623: error: expected ‘)’ before ‘TSAdapt’
+/opt/software/petsc-3.9.3/include/petscts.h:676: error: expected ‘)’ before ‘TSGLLEAdapt’
+/lustre/home/bogdan/eqSolver/build/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/lustre/home/bogdan/eqSolver/build/CMakeFiles/CMakeTmp/src.c:8: error: ‘MPI_COMM_SELF’ undeclared (first use in this function)
+/lustre/home/bogdan/eqSolver/build/CMakeFiles/CMakeTmp/src.c:9: error: ‘PETSC_COMM_WORLD’ undeclared (first use in this function)
+gmake[1]: *** [CMakeFiles/cmTryCompileExec3602333460.dir/src.c.o] Error 1
+gmake[1]: Leaving directory `/lustre/home/bogdan/eqSolver/build/CMakeFiles/CMakeTmp'
+gmake: *** [cmTryCompileExec3602333460/fast] Error 2
+
+Return value: 1
+Source file was:
+
+static const char help[] = "PETSc test program.";
+#include <petscts.h>
+int main(int argc,char *argv[]) {
+  PetscErrorCode ierr;
+  TS ts;
+
+  ierr = PetscInitialize(&argc,&argv,0,help);CHKERRQ(ierr);
+  ierr = TSCreate(PETSC_COMM_WORLD,&ts);CHKERRQ(ierr);
+  ierr = TSSetFromOptions(ts);CHKERRQ(ierr);
+  ierr = TSDestroy(&ts);CHKERRQ(ierr);
+  ierr = PetscFinalize();CHKERRQ(ierr);
+  return 0;
+}
+
+Performing C SOURCE FILE Test MULTIPASS_TEST_2_petsc_works_allincludes failed with the following output:
+Change Dir: /lustre/home/bogdan/eqSolver/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec774107212/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec774107212.dir/build.make CMakeFiles/cmTryCompileExec774107212.dir/build
+gmake[1]: Entering directory `/lustre/home/bogdan/eqSolver/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /lustre/home/bogdan/eqSolver/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec774107212.dir/src.c.o
+/usr/bin/cc   -DMULTIPASS_TEST_2_petsc_works_allincludes -I/opt/software/petsc-3.9.3/include    -o CMakeFiles/cmTryCompileExec774107212.dir/src.c.o   -c /lustre/home/bogdan/eqSolver/build/CMakeFiles/CMakeTmp/src.c
+In file included from /opt/software/petsc-3.9.3/include/petscis.h:7,
+                 from /opt/software/petsc-3.9.3/include/petscvec.h:9,
+                 from /opt/software/petsc-3.9.3/include/petscmat.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscpc.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscksp.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscsnes.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscts.h:7,
+                 from /lustre/home/bogdan/eqSolver/build/CMakeFiles/CMakeTmp/src.c:3:
+/opt/software/petsc-3.9.3/include/petscsys.h:130:19: error: mpi.h: No such file or directory
+/opt/software/petsc-3.9.3/include/petscsys.h:163:6: error: #error "PETSc was configured with OpenMPI but now appears to be compiling using a non-OpenMPI mpi.h"
+In file included from /opt/software/petsc-3.9.3/include/petscis.h:7,
+                 from /opt/software/petsc-3.9.3/include/petscvec.h:9,
+                 from /opt/software/petsc-3.9.3/include/petscmat.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscpc.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscksp.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscsnes.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscts.h:7,
+                 from /lustre/home/bogdan/eqSolver/build/CMakeFiles/CMakeTmp/src.c:3:
+/opt/software/petsc-3.9.3/include/petscsys.h:253: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘MPIU_ENUM’
+In file included from /opt/software/petsc-3.9.3/include/petscis.h:7,
+                 from /opt/software/petsc-3.9.3/include/petscvec.h:9,
+                 from /opt/software/petsc-3.9.3/include/petscmat.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscpc.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscksp.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscsnes.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscts.h:7,
+                 from /lustre/home/bogdan/eqSolver/build/CMakeFiles/CMakeTmp/src.c:3:
+/opt/software/petsc-3.9.3/include/petscsys.h:463: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘MPIU_BOOL’
+In file included from /opt/software/petsc-3.9.3/include/petscsys.h:468,
+                 from /opt/software/petsc-3.9.3/include/petscis.h:7,
+                 from /opt/software/petsc-3.9.3/include/petscvec.h:9,
+                 from /opt/software/petsc-3.9.3/include/petscmat.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscpc.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscksp.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscsnes.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscts.h:7,
+                 from /lustre/home/bogdan/eqSolver/build/CMakeFiles/CMakeTmp/src.c:3:
+/opt/software/petsc-3.9.3/include/petscmath.h:690: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘MPIU_2SCALAR’
+/opt/software/petsc-3.9.3/include/petscmath.h:693: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘MPIU_2INT’
+In file included from /opt/software/petsc-3.9.3/include/petscis.h:7,
+                 from /opt/software/petsc-3.9.3/include/petscvec.h:9,
+                 from /opt/software/petsc-3.9.3/include/petscmat.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscpc.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscksp.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscsnes.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscts.h:7,
+                 from /lustre/home/bogdan/eqSolver/build/CMakeFiles/CMakeTmp/src.c:3:
+/opt/software/petsc-3.9.3/include/petscsys.h:586: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘PETSC_COMM_WORLD’
+/opt/software/petsc-3.9.3/include/petscsys.h:607: error: expected declaration specifiers or ‘...’ before ‘MPI_Comm’
+/opt/software/petsc-3.9.3/include/petscsys.h:607: error: expected declaration specifiers or ‘...’ before ‘MPI_Comm’
+/opt/software/petsc-3.9.3/include/petscsys.h:608: error: expected ‘)’ before ‘*’ token
+/opt/software/petsc-3.9.3/include/petscsys.h:609: error: expected ‘)’ before ‘*’ token
+In file included from /opt/software/petsc-3.9.3/include/petscis.h:7,
+                 from /opt/software/petsc-3.9.3/include/petscvec.h:9,
+                 from /opt/software/petsc-3.9.3/include/petscmat.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscpc.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscksp.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscsnes.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscts.h:7,
+                 from /lustre/home/bogdan/eqSolver/build/CMakeFiles/CMakeTmp/src.c:3:
+/opt/software/petsc-3.9.3/include/petscsys.h:1432: error: expected declaration specifiers or ‘...’ before ‘MPI_Datatype’
+/opt/software/petsc-3.9.3/include/petscsys.h:1433: error: expected ‘)’ before ‘PetscDataType’
+/opt/software/petsc-3.9.3/include/petscsys.h:1470: error: expected ‘)’ before ‘const’
+/opt/software/petsc-3.9.3/include/petscsys.h:1494: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘MPIU_MAXSUM_OP’
+/opt/software/petsc-3.9.3/include/petscsys.h:1507: error: expected ‘)’ before ‘const’
+/opt/software/petsc-3.9.3/include/petscsys.h:1509: error: expected declaration specifiers or ‘...’ before ‘MPI_Datatype’
+/opt/software/petsc-3.9.3/include/petscsys.h:1509: error: expected declaration specifiers or ‘...’ before ‘MPI_Comm’
+/opt/software/petsc-3.9.3/include/petscsys.h:1510: error: expected declaration specifiers or ‘...’ before ‘MPI_Datatype’
+/opt/software/petsc-3.9.3/include/petscsys.h:1510: error: expected declaration specifiers or ‘...’ before ‘MPI_Comm’
+In file included from /opt/software/petsc-3.9.3/include/petscsys.h:1586,
+                 from /opt/software/petsc-3.9.3/include/petscis.h:7,
+                 from /opt/software/petsc-3.9.3/include/petscvec.h:9,
+                 from /opt/software/petsc-3.9.3/include/petscmat.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscpc.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscksp.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscsnes.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscts.h:7,
+                 from /lustre/home/bogdan/eqSolver/build/CMakeFiles/CMakeTmp/src.c:3:
+/opt/software/petsc-3.9.3/include/petscerror.h:546: error: expected ‘)’ before ‘int’
+/opt/software/petsc-3.9.3/include/petscerror.h:550: error: expected ‘)’ before ‘int’
+/opt/software/petsc-3.9.3/include/petscerror.h:551: error: expected ‘)’ before ‘int’
+/opt/software/petsc-3.9.3/include/petscerror.h:552: error: expected ‘)’ before ‘int’
+/opt/software/petsc-3.9.3/include/petscerror.h:553: error: expected ‘)’ before ‘int’
+/opt/software/petsc-3.9.3/include/petscerror.h:554: error: expected ‘)’ before ‘int’
+/opt/software/petsc-3.9.3/include/petscerror.h:555: error: expected ‘)’ before ‘int’
+/opt/software/petsc-3.9.3/include/petscerror.h:556: error: expected ‘)’ before ‘int’
+/opt/software/petsc-3.9.3/include/petscerror.h:557: error: expected ‘)’ before ‘int’
+/opt/software/petsc-3.9.3/include/petscerror.h:557: error: expected ‘;’, ‘,’ or ‘)’ before ‘void’
+In file included from /opt/software/petsc-3.9.3/include/petscis.h:7,
+                 from /opt/software/petsc-3.9.3/include/petscvec.h:9,
+                 from /opt/software/petsc-3.9.3/include/petscmat.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscpc.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscksp.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscsnes.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscts.h:7,
+                 from /lustre/home/bogdan/eqSolver/build/CMakeFiles/CMakeTmp/src.c:3:
+/opt/software/petsc-3.9.3/include/petscsys.h:1638: error: expected declaration specifiers or ‘...’ before ‘MPI_Comm’
+/opt/software/petsc-3.9.3/include/petscsys.h:1661: error: expected ‘)’ before ‘PetscMPIInt’
+In file included from /opt/software/petsc-3.9.3/include/petscsys.h:1664,
+                 from /opt/software/petsc-3.9.3/include/petscis.h:7,
+                 from /opt/software/petsc-3.9.3/include/petscvec.h:9,
+                 from /opt/software/petsc-3.9.3/include/petscmat.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscpc.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscksp.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscsnes.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscts.h:7,
+                 from /lustre/home/bogdan/eqSolver/build/CMakeFiles/CMakeTmp/src.c:3:
+/opt/software/petsc-3.9.3/include/petscoptions.h:42: error: expected ‘)’ before ‘PetscOptions’
+/opt/software/petsc-3.9.3/include/petscoptions.h:55: error: expected ‘)’ before ‘const’
+/opt/software/petsc-3.9.3/include/petscoptions.h:97: error: expected specifier-qualifier-list before ‘MPI_Comm’
+/opt/software/petsc-3.9.3/include/petscoptions.h:215: error: expected declaration specifiers or ‘...’ before ‘MPI_Comm’
+In file included from /opt/software/petsc-3.9.3/include/petscis.h:7,
+                 from /opt/software/petsc-3.9.3/include/petscvec.h:9,
+                 from /opt/software/petsc-3.9.3/include/petscmat.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscpc.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscksp.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscsnes.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscts.h:7,
+                 from /lustre/home/bogdan/eqSolver/build/CMakeFiles/CMakeTmp/src.c:3:
+/opt/software/petsc-3.9.3/include/petscsys.h:1666: error: expected ‘)’ before ‘PetscInt’
+In file included from /opt/software/petsc-3.9.3/include/petscis.h:7,
+                 from /opt/software/petsc-3.9.3/include/petscvec.h:9,
+                 from /opt/software/petsc-3.9.3/include/petscmat.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscpc.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscksp.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscsnes.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscts.h:7,
+                 from /lustre/home/bogdan/eqSolver/build/CMakeFiles/CMakeTmp/src.c:3:
+/opt/software/petsc-3.9.3/include/petscsys.h:1755: error: expected ‘)’ before ‘FILE’
+/opt/software/petsc-3.9.3/include/petscsys.h:1769: error: expected ‘)’ before ‘PetscDLLibrary’
+/opt/software/petsc-3.9.3/include/petscsys.h:1770: error: expected ‘)’ before ‘PetscDLLibrary’
+/opt/software/petsc-3.9.3/include/petscsys.h:1771: error: expected ‘)’ before ‘PetscDLLibrary’
+/opt/software/petsc-3.9.3/include/petscsys.h:1773: error: expected ‘)’ before ‘const’
+/opt/software/petsc-3.9.3/include/petscsys.h:1774: error: expected ‘)’ before ‘const’
+/opt/software/petsc-3.9.3/include/petscsys.h:1780: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscsys.h:1781: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscsys.h:1782: error: expected ‘)’ before ‘PetscMPIInt’
+/opt/software/petsc-3.9.3/include/petscsys.h:1783: error: expected ‘)’ before ‘PetscMPIInt’
+/opt/software/petsc-3.9.3/include/petscsys.h:1786: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscsys.h:1787: error: expected ‘)’ before ‘PetscReal’
+/opt/software/petsc-3.9.3/include/petscsys.h:1822: error: expected ‘)’ before ‘const’
+In file included from /opt/software/petsc-3.9.3/include/petscsys.h:1827,
+                 from /opt/software/petsc-3.9.3/include/petscis.h:7,
+                 from /opt/software/petsc-3.9.3/include/petscvec.h:9,
+                 from /opt/software/petsc-3.9.3/include/petscmat.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscpc.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscksp.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscsnes.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscts.h:7,
+                 from /lustre/home/bogdan/eqSolver/build/CMakeFiles/CMakeTmp/src.c:3:
+/opt/software/petsc-3.9.3/include/petsclog.h:315: error: expected declaration specifiers or ‘...’ before ‘MPI_Datatype’
+/opt/software/petsc-3.9.3/include/petsclog.h: In function ‘PetscMPITypeSize’:
+/opt/software/petsc-3.9.3/include/petsclog.h:319: error: ‘type’ undeclared (first use in this function)
+/opt/software/petsc-3.9.3/include/petsclog.h:319: error: (Each undeclared identifier is reported only once
+/opt/software/petsc-3.9.3/include/petsclog.h:319: error: for each function it appears in.)
+/opt/software/petsc-3.9.3/include/petsclog.h:319: error: ‘MPI_DATATYPE_NULL’ undeclared (first use in this function)
+/opt/software/petsc-3.9.3/include/petsclog.h:320: error: ‘MPI_COMM_SELF’ undeclared (first use in this function)
+/opt/software/petsc-3.9.3/include/petsclog.h: At top level:
+/opt/software/petsc-3.9.3/include/petsclog.h:325: error: expected ‘)’ before ‘comm’
+/opt/software/petsc-3.9.3/include/petsclog.h:342: error: expected ‘)’ before ‘comm’
+In file included from /opt/software/petsc-3.9.3/include/petscis.h:7,
+                 from /opt/software/petsc-3.9.3/include/petscvec.h:9,
+                 from /opt/software/petsc-3.9.3/include/petscmat.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscpc.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscksp.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscsnes.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscts.h:7,
+                 from /lustre/home/bogdan/eqSolver/build/CMakeFiles/CMakeTmp/src.c:3:
+/opt/software/petsc-3.9.3/include/petscsys.h:1833: error: expected ‘)’ before ‘const’
+/opt/software/petsc-3.9.3/include/petscsys.h:1834: error: expected ‘)’ before ‘FILE’
+/opt/software/petsc-3.9.3/include/petscsys.h:1835: error: expected ‘)’ before ‘FILE’
+/opt/software/petsc-3.9.3/include/petscsys.h:1836: error: expected ‘)’ before ‘const’
+/opt/software/petsc-3.9.3/include/petscsys.h:1842: error: expected ‘)’ before ‘const’
+/opt/software/petsc-3.9.3/include/petscsys.h:1845: error: expected ‘)’ before ‘const’
+/opt/software/petsc-3.9.3/include/petscsys.h:1846: error: expected ‘)’ before ‘FILE’
+/opt/software/petsc-3.9.3/include/petscsys.h:1850: error: expected ‘)’ before ‘const’
+/opt/software/petsc-3.9.3/include/petscsys.h:1851: error: expected ‘)’ before ‘FILE’
+/opt/software/petsc-3.9.3/include/petscsys.h:1852: error: expected ‘)’ before ‘FILE’
+/opt/software/petsc-3.9.3/include/petscsys.h:1853: error: expected ‘)’ before ‘FILE’
+/opt/software/petsc-3.9.3/include/petscsys.h:1854: error: expected ‘)’ before ‘const’
+/opt/software/petsc-3.9.3/include/petscsys.h:1855: error: expected ‘)’ before ‘const’
+/opt/software/petsc-3.9.3/include/petscsys.h:1870: error: expected ‘)’ before ‘PetscContainer’
+In file included from /opt/software/petsc-3.9.3/include/petscis.h:7,
+                 from /opt/software/petsc-3.9.3/include/petscvec.h:9,
+                 from /opt/software/petsc-3.9.3/include/petscmat.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscpc.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscksp.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscsnes.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscts.h:7,
+                 from /lustre/home/bogdan/eqSolver/build/CMakeFiles/CMakeTmp/src.c:3:
+/opt/software/petsc-3.9.3/include/petscsys.h:2241: error: expected ‘)’ before ‘void’
+/opt/software/petsc-3.9.3/include/petscsys.h:2242: error: expected ‘)’ before ‘void’
+/opt/software/petsc-3.9.3/include/petscsys.h: In function ‘PetscIntMultError’:
+/opt/software/petsc-3.9.3/include/petscsys.h:2454: error: ‘MPI_COMM_SELF’ undeclared (first use in this function)
+/opt/software/petsc-3.9.3/include/petscsys.h: In function ‘PetscIntSumError’:
+/opt/software/petsc-3.9.3/include/petscsys.h:2489: error: ‘MPI_COMM_SELF’ undeclared (first use in this function)
+In file included from /opt/software/petsc-3.9.3/include/petscis.h:7,
+                 from /opt/software/petsc-3.9.3/include/petscvec.h:9,
+                 from /opt/software/petsc-3.9.3/include/petscmat.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscpc.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscksp.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscsnes.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscts.h:7,
+                 from /lustre/home/bogdan/eqSolver/build/CMakeFiles/CMakeTmp/src.c:3:
+/opt/software/petsc-3.9.3/include/petscsys.h: At top level:
+/opt/software/petsc-3.9.3/include/petscsys.h:2665: error: expected ‘)’ before ‘PetscRandom’
+/opt/software/petsc-3.9.3/include/petscsys.h:2686: error: expected ‘)’ before ‘int’
+/opt/software/petsc-3.9.3/include/petscsys.h:2687: error: expected ‘)’ before ‘int’
+/opt/software/petsc-3.9.3/include/petscsys.h:2691: error: expected ‘)’ before ‘PetscBool’
+/opt/software/petsc-3.9.3/include/petscsys.h:2692: error: expected ‘)’ before ‘PetscBool’
+/opt/software/petsc-3.9.3/include/petscsys.h:2693: error: expected ‘)’ before ‘char’
+/opt/software/petsc-3.9.3/include/petscsys.h:2694: error: expected ‘)’ before ‘const’
+/opt/software/petsc-3.9.3/include/petscsys.h:2695: error: expected ‘)’ before ‘const’
+/opt/software/petsc-3.9.3/include/petscsys.h:2722: error: expected ‘)’ before ‘int’
+/opt/software/petsc-3.9.3/include/petscsys.h:2732: error: expected ‘)’ before ‘const’
+/opt/software/petsc-3.9.3/include/petscsys.h:2733: error: expected ‘)’ before ‘PetscMPIInt’
+/opt/software/petsc-3.9.3/include/petscsys.h:2734: error: expected ‘)’ before ‘PetscMPIInt’
+/opt/software/petsc-3.9.3/include/petscsys.h:2735: error: expected ‘)’ before ‘PetscMPIInt’
+/opt/software/petsc-3.9.3/include/petscsys.h:2736: error: expected ‘)’ before ‘PetscMPIInt’
+/opt/software/petsc-3.9.3/include/petscsys.h:2737: error: expected ‘)’ before ‘PetscMPIInt’
+/opt/software/petsc-3.9.3/include/petscsys.h:2739: error: expected ‘)’ before ‘PetscMPIInt’
+/opt/software/petsc-3.9.3/include/petscsys.h:2743: error: expected ‘)’ before ‘PetscMPIInt’
+/opt/software/petsc-3.9.3/include/petscsys.h:2772: error: expected ‘)’ before ‘PetscBuildTwoSidedType’
+/opt/software/petsc-3.9.3/include/petscsys.h:2773: error: expected ‘)’ before ‘PetscBuildTwoSidedType’
+/opt/software/petsc-3.9.3/include/petscsys.h:2775: error: expected ‘)’ before ‘PetscBool’
+/opt/software/petsc-3.9.3/include/petscsys.h:2820: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘PetscObjectComm’
+/opt/software/petsc-3.9.3/include/petscsys.h:2864: error: expected specifier-qualifier-list before ‘MPI_Comm’
+/opt/software/petsc-3.9.3/include/petscsys.h:2874: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘PetscSubcommParent’
+/opt/software/petsc-3.9.3/include/petscsys.h:2875: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘PetscSubcommChild’
+/opt/software/petsc-3.9.3/include/petscsys.h:2876: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘PetscSubcommContiguousParent’
+/opt/software/petsc-3.9.3/include/petscsys.h:2877: error: expected ‘)’ before ‘PetscSubcomm’
+/opt/software/petsc-3.9.3/include/petscsys.h:2908: error: expected ‘)’ before ‘PetscCommShared’
+/opt/software/petsc-3.9.3/include/petscsys.h:2910: error: expected declaration specifiers or ‘...’ before ‘MPI_Comm’
+In file included from /opt/software/petsc-3.9.3/include/petscis.h:7,
+                 from /opt/software/petsc-3.9.3/include/petscvec.h:9,
+                 from /opt/software/petsc-3.9.3/include/petscmat.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscpc.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscksp.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscsnes.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscts.h:7,
+                 from /lustre/home/bogdan/eqSolver/build/CMakeFiles/CMakeTmp/src.c:3:
+/opt/software/petsc-3.9.3/include/petscsys.h: In function ‘PetscCitationsRegister’:
+/opt/software/petsc-3.9.3/include/petscsys.h:2971: error: ‘MPI_COMM_SELF’ undeclared (first use in this function)
+/opt/software/petsc-3.9.3/include/petscsys.h: At top level:
+/opt/software/petsc-3.9.3/include/petscsys.h:2979: error: expected ‘)’ before ‘char’
+/opt/software/petsc-3.9.3/include/petscsys.h:2980: error: expected ‘)’ before ‘const’
+/opt/software/petsc-3.9.3/include/petscsys.h:2981: error: expected ‘)’ before ‘const’
+/opt/software/petsc-3.9.3/include/petscsys.h:2983: error: expected ‘)’ before ‘char’
+/opt/software/petsc-3.9.3/include/petscsys.h:2984: error: expected ‘)’ before ‘const’
+/opt/software/petsc-3.9.3/include/petscsys.h:2986: error: expected ‘)’ before ‘const’
+/opt/software/petsc-3.9.3/include/petscsys.h:2988: error: expected ‘)’ before ‘const’
+/opt/software/petsc-3.9.3/include/petscsys.h:2989: error: expected ‘)’ before ‘const’
+/opt/software/petsc-3.9.3/include/petscsys.h:3035: error: expected ‘)’ before ‘PetscMPIInt’
+/opt/software/petsc-3.9.3/include/petscsys.h:3036: error: expected ‘)’ before ‘PetscMPIInt’
+In file included from /opt/software/petsc-3.9.3/include/petscvec.h:9,
+                 from /opt/software/petsc-3.9.3/include/petscmat.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscpc.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscksp.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscsnes.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscts.h:7,
+                 from /lustre/home/bogdan/eqSolver/build/CMakeFiles/CMakeTmp/src.c:3:
+/opt/software/petsc-3.9.3/include/petscis.h:33: error: expected ‘)’ before ‘IS’
+/opt/software/petsc-3.9.3/include/petscis.h:38: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscis.h:40: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscis.h:42: error: expected ‘)’ before ‘PetscInt’
+In file included from /opt/software/petsc-3.9.3/include/petscvec.h:9,
+                 from /opt/software/petsc-3.9.3/include/petscmat.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscpc.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscksp.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscsnes.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscts.h:7,
+                 from /lustre/home/bogdan/eqSolver/build/CMakeFiles/CMakeTmp/src.c:3:
+/opt/software/petsc-3.9.3/include/petscis.h:94: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscis.h:95: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscis.h:99: error: expected declaration specifiers or ‘...’ before ‘MPI_Comm’
+/opt/software/petsc-3.9.3/include/petscis.h:131: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscis.h:153: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscis.h:179: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscis.h:181: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscis.h:202: error: expected specifier-qualifier-list before ‘MPI_Comm’
+/opt/software/petsc-3.9.3/include/petscis.h: In function ‘PetscLayoutFindOwner’:
+/opt/software/petsc-3.9.3/include/petscis.h:239: error: ‘struct _n_PetscLayout’ has no member named ‘n’
+/opt/software/petsc-3.9.3/include/petscis.h:239: error: ‘struct _n_PetscLayout’ has no member named ‘N’
+/opt/software/petsc-3.9.3/include/petscis.h:239: error: ‘struct _n_PetscLayout’ has no member named ‘range’
+/opt/software/petsc-3.9.3/include/petscis.h:239: error: ‘MPI_COMM_SELF’ undeclared (first use in this function)
+/opt/software/petsc-3.9.3/include/petscis.h:240: error: ‘struct _n_PetscLayout’ has no member named ‘N’
+/opt/software/petsc-3.9.3/include/petscis.h:241: error: ‘struct _n_PetscLayout’ has no member named ‘comm’
+/opt/software/petsc-3.9.3/include/petscis.h:244: error: ‘struct _n_PetscLayout’ has no member named ‘range’
+/opt/software/petsc-3.9.3/include/petscis.h: In function ‘PetscLayoutFindOwnerIndex’:
+/opt/software/petsc-3.9.3/include/petscis.h:276: error: ‘struct _n_PetscLayout’ has no member named ‘n’
+/opt/software/petsc-3.9.3/include/petscis.h:276: error: ‘struct _n_PetscLayout’ has no member named ‘N’
+/opt/software/petsc-3.9.3/include/petscis.h:276: error: ‘struct _n_PetscLayout’ has no member named ‘range’
+/opt/software/petsc-3.9.3/include/petscis.h:276: error: ‘MPI_COMM_SELF’ undeclared (first use in this function)
+/opt/software/petsc-3.9.3/include/petscis.h:277: error: ‘struct _n_PetscLayout’ has no member named ‘N’
+/opt/software/petsc-3.9.3/include/petscis.h:278: error: ‘struct _n_PetscLayout’ has no member named ‘comm’
+/opt/software/petsc-3.9.3/include/petscis.h:281: error: ‘struct _n_PetscLayout’ has no member named ‘range’
+/opt/software/petsc-3.9.3/include/petscis.h:285: error: ‘struct _n_PetscLayout’ has no member named ‘range’
+/opt/software/petsc-3.9.3/include/petscis.h: At top level:
+/opt/software/petsc-3.9.3/include/petscis.h:289: error: expected ‘)’ before ‘PetscLayout’
+/opt/software/petsc-3.9.3/include/petscis.h:308: error: expected ‘)’ before ‘PetscSection’
+/opt/software/petsc-3.9.3/include/petscis.h:358: error: expected ‘)’ before ‘PetscSection’
+/opt/software/petsc-3.9.3/include/petscis.h:359: error: expected ‘)’ before ‘PetscSection’
+/opt/software/petsc-3.9.3/include/petscis.h:387: error: expected ‘)’ before ‘PetscSectionSym’
+In file included from /opt/software/petsc-3.9.3/include/petscvec.h:10,
+                 from /opt/software/petsc-3.9.3/include/petscmat.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscpc.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscksp.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscsnes.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscts.h:7,
+                 from /lustre/home/bogdan/eqSolver/build/CMakeFiles/CMakeTmp/src.c:3:
+/opt/software/petsc-3.9.3/include/petscviewer.h:40: error: expected ‘)’ before ‘PetscViewer’
+/opt/software/petsc-3.9.3/include/petscviewer.h:42: error: expected ‘)’ before ‘FILE’
+/opt/software/petsc-3.9.3/include/petscviewer.h:44: error: expected ‘)’ before ‘const’
+/opt/software/petsc-3.9.3/include/petscviewer.h:46: error: expected ‘)’ before ‘const’
+/opt/software/petsc-3.9.3/include/petscviewer.h:52: error: expected declaration specifiers or ‘...’ before ‘MPI_File’
+/opt/software/petsc-3.9.3/include/petscviewer.h:53: error: expected declaration specifiers or ‘...’ before ‘MPI_Offset’
+/opt/software/petsc-3.9.3/include/petscviewer.h:54: error: expected declaration specifiers or ‘...’ before ‘MPI_Offset’
+/opt/software/petsc-3.9.3/include/petscviewer.h:57: error: expected ‘)’ before ‘const’
+/opt/software/petsc-3.9.3/include/petscviewer.h:58: error: expected ‘)’ before ‘char’
+/opt/software/petsc-3.9.3/include/petscviewer.h:59: error: expected ‘)’ before ‘const’
+/opt/software/petsc-3.9.3/include/petscviewer.h:70: error: expected ‘)’ before ‘int’
+/opt/software/petsc-3.9.3/include/petscviewer.h:71: error: expected ‘)’ before ‘const’
+/opt/software/petsc-3.9.3/include/petscviewer.h:72: error: expected ‘)’ before ‘const’
+/opt/software/petsc-3.9.3/include/petscviewer.h:82: error: expected ‘)’ before ‘PetscViewerGLVisType’
+In file included from /opt/software/petsc-3.9.3/include/petscvec.h:10,
+                 from /opt/software/petsc-3.9.3/include/petscmat.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscpc.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscksp.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscsnes.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscts.h:7,
+                 from /lustre/home/bogdan/eqSolver/build/CMakeFiles/CMakeTmp/src.c:3:
+/opt/software/petsc-3.9.3/include/petscviewer.h:90: error: expected declaration specifiers or ‘...’ before ‘MPI_Comm’
+/opt/software/petsc-3.9.3/include/petscviewer.h:91: error: expected declaration specifiers or ‘...’ before ‘MPI_Comm’
+/opt/software/petsc-3.9.3/include/petscviewer.h:156: error: expected ‘)’ before ‘const’
+/opt/software/petsc-3.9.3/include/petscviewer.h:235: error: expected ‘)’ before ‘const’
+/opt/software/petsc-3.9.3/include/petscviewer.h:240: warning: parameter names (without types) in function declaration
+/opt/software/petsc-3.9.3/include/petscviewer.h:241: error: expected ‘)’ before ‘PetscViewer’
+/opt/software/petsc-3.9.3/include/petscviewer.h:242: warning: parameter names (without types) in function declaration
+/opt/software/petsc-3.9.3/include/petscviewer.h:243: error: expected ‘)’ before ‘PetscViewer’
+/opt/software/petsc-3.9.3/include/petscviewer.h:244: warning: parameter names (without types) in function declaration
+/opt/software/petsc-3.9.3/include/petscviewer.h:245: warning: parameter names (without types) in function declaration
+/opt/software/petsc-3.9.3/include/petscviewer.h:246: warning: parameter names (without types) in function declaration
+/opt/software/petsc-3.9.3/include/petscviewer.h:247: warning: parameter names (without types) in function declaration
+/opt/software/petsc-3.9.3/include/petscviewer.h:248: warning: parameter names (without types) in function declaration
+/opt/software/petsc-3.9.3/include/petscviewer.h:249: warning: parameter names (without types) in function declaration
+/opt/software/petsc-3.9.3/include/petscviewer.h:355: error: expected ‘)’ before ‘PetscViewers’
+In file included from /opt/software/petsc-3.9.3/include/petscmat.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscpc.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscksp.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscsnes.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscts.h:7,
+                 from /lustre/home/bogdan/eqSolver/build/CMakeFiles/CMakeTmp/src.c:3:
+/opt/software/petsc-3.9.3/include/petscvec.h:142: error: expected ‘)’ before ‘Vec’
+/opt/software/petsc-3.9.3/include/petscvec.h:143: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscvec.h:144: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscvec.h:145: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscvec.h:146: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscvec.h:147: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscvec.h:148: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscvec.h:345: error: expected ‘)’ before ‘VecScatter’
+/opt/software/petsc-3.9.3/include/petscvec.h:435: warning: parameter names (without types) in function declaration
+/opt/software/petsc-3.9.3/include/petscvec.h: In function ‘VecGetArrayPair’:
+/opt/software/petsc-3.9.3/include/petscvec.h:475: error: ‘MPI_COMM_SELF’ undeclared (first use in this function)
+/opt/software/petsc-3.9.3/include/petscvec.h: In function ‘VecRestoreArrayPair’:
+/opt/software/petsc-3.9.3/include/petscvec.h:509: error: ‘MPI_COMM_SELF’ undeclared (first use in this function)
+/opt/software/petsc-3.9.3/include/petscvec.h: At top level:
+/opt/software/petsc-3.9.3/include/petscvec.h:542: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscvec.h:543: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscvec.h:544: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscvec.h:545: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscvec.h:595: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscvec.h:596: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscvec.h:626: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscvec.h:640: error: expected ‘)’ before ‘Vec’
+/opt/software/petsc-3.9.3/include/petscvec.h:672: error: expected ‘)’ before ‘VecTagger’
+In file included from /opt/software/petsc-3.9.3/include/petscpc.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscksp.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscsnes.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscts.h:7,
+                 from /lustre/home/bogdan/eqSolver/build/CMakeFiles/CMakeTmp/src.c:3:
+/opt/software/petsc-3.9.3/include/petscmat.h:185: error: expected ‘)’ before ‘Mat’
+/opt/software/petsc-3.9.3/include/petscmat.h:216: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscmat.h:217: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscmat.h:221: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscmat.h:222: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscmat.h:223: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscmat.h:224: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscmat.h:225: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscmat.h:226: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscmat.h:227: error: expected ‘)’ before ‘Mat’
+/opt/software/petsc-3.9.3/include/petscmat.h:229: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscmat.h:230: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscmat.h:231: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscmat.h:233: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscmat.h:234: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscmat.h:236: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscmat.h:237: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscmat.h:242: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscmat.h:247: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscmat.h:248: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscmat.h:249: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscmat.h:251: error: expected ‘)’ before ‘VecScatter’
+/opt/software/petsc-3.9.3/include/petscmat.h:254: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscmat.h:257: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscmat.h:261: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscmat.h:262: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscmat.h:553: error: expected ‘)’ before ‘Mat’
+/opt/software/petsc-3.9.3/include/petscmat.h:554: error: expected ‘)’ before ‘Mat’
+/opt/software/petsc-3.9.3/include/petscmat.h:610: error: expected declaration specifiers or ‘...’ before ‘MPI_Comm’
+/opt/software/petsc-3.9.3/include/petscmat.h:611: error: expected declaration specifiers or ‘...’ before ‘MPI_Comm’
+/opt/software/petsc-3.9.3/include/petscmat.h:614: error: expected ‘)’ before ‘Mat’
+/opt/software/petsc-3.9.3/include/petscmat.h:1011: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscmat.h:1012: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscmat.h:1013: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscmat.h:1014: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscmat.h:1328: error: expected ‘)’ before ‘MatPartitioning’
+/opt/software/petsc-3.9.3/include/petscmat.h:1595: error: expected ‘)’ before ‘PetscBool’
+/opt/software/petsc-3.9.3/include/petscmat.h:1624: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscmat.h:1804: error: expected ‘)’ before ‘PetscInt’
+In file included from /opt/software/petsc-3.9.3/include/petscksp.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscsnes.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscts.h:7,
+                 from /lustre/home/bogdan/eqSolver/build/CMakeFiles/CMakeTmp/src.c:3:
+/opt/software/petsc-3.9.3/include/petscpc.h:20: error: expected ‘)’ before ‘PC’
+In file included from /opt/software/petsc-3.9.3/include/petscksp.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscsnes.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscts.h:7,
+                 from /lustre/home/bogdan/eqSolver/build/CMakeFiles/CMakeTmp/src.c:3:
+/opt/software/petsc-3.9.3/include/petscpc.h:307: error: expected declaration specifiers or ‘...’ before ‘MPI_Comm’
+In file included from /opt/software/petsc-3.9.3/include/petscsnes.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscts.h:7,
+                 from /lustre/home/bogdan/eqSolver/build/CMakeFiles/CMakeTmp/src.c:3:
+/opt/software/petsc-3.9.3/include/petscksp.h:82: error: expected ‘)’ before ‘KSP’
+In file included from /opt/software/petsc-3.9.3/include/petscsnes.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscts.h:7,
+                 from /lustre/home/bogdan/eqSolver/build/CMakeFiles/CMakeTmp/src.c:3:
+/opt/software/petsc-3.9.3/include/petscksp.h:632: error: expected ‘)’ before ‘const’
+/opt/software/petsc-3.9.3/include/petscksp.h:634: error: expected ‘)’ before ‘const’
+/opt/software/petsc-3.9.3/include/petscksp.h:665: error: expected ‘)’ before ‘KSPGuess’
+In file included from /opt/software/petsc-3.9.3/include/petscts.h:7,
+                 from /lustre/home/bogdan/eqSolver/build/CMakeFiles/CMakeTmp/src.c:3:
+/opt/software/petsc-3.9.3/include/petscsnes.h:56: error: expected ‘)’ before ‘SNES’
+In file included from /opt/software/petsc-3.9.3/include/petscts.h:7,
+                 from /lustre/home/bogdan/eqSolver/build/CMakeFiles/CMakeTmp/src.c:3:
+/opt/software/petsc-3.9.3/include/petscsnes.h:126: error: expected ‘)’ before ‘const’
+/opt/software/petsc-3.9.3/include/petscsnes.h:166: error: expected ‘)’ before ‘const’
+/opt/software/petsc-3.9.3/include/petscsnes.h:543: error: expected ‘)’ before ‘SNESLineSearch’
+/opt/software/petsc-3.9.3/include/petscsnes.h:831: error: expected declaration specifiers or ‘...’ before ‘MPI_Comm’
+In file included from /lustre/home/bogdan/eqSolver/build/CMakeFiles/CMakeTmp/src.c:3:
+/opt/software/petsc-3.9.3/include/petscts.h:219: error: expected ‘)’ before ‘TS’
+/opt/software/petsc-3.9.3/include/petscts.h:283: error: expected ‘)’ before ‘TSTrajectory’
+/opt/software/petsc-3.9.3/include/petscts.h:350: error: expected ‘)’ before ‘const’
+/opt/software/petsc-3.9.3/include/petscts.h:547: error: expected ‘)’ before ‘const’
+/opt/software/petsc-3.9.3/include/petscts.h:570: error: expected ‘)’ before ‘const’
+/opt/software/petsc-3.9.3/include/petscts.h:623: error: expected ‘)’ before ‘TSAdapt’
+/opt/software/petsc-3.9.3/include/petscts.h:676: error: expected ‘)’ before ‘TSGLLEAdapt’
+/lustre/home/bogdan/eqSolver/build/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/lustre/home/bogdan/eqSolver/build/CMakeFiles/CMakeTmp/src.c:8: error: ‘MPI_COMM_SELF’ undeclared (first use in this function)
+/lustre/home/bogdan/eqSolver/build/CMakeFiles/CMakeTmp/src.c:9: error: ‘PETSC_COMM_WORLD’ undeclared (first use in this function)
+gmake[1]: *** [CMakeFiles/cmTryCompileExec774107212.dir/src.c.o] Error 1
+gmake[1]: Leaving directory `/lustre/home/bogdan/eqSolver/build/CMakeFiles/CMakeTmp'
+gmake: *** [cmTryCompileExec774107212/fast] Error 2
+
+Return value: 1
+Source file was:
+
+static const char help[] = "PETSc test program.";
+#include <petscts.h>
+int main(int argc,char *argv[]) {
+  PetscErrorCode ierr;
+  TS ts;
+
+  ierr = PetscInitialize(&argc,&argv,0,help);CHKERRQ(ierr);
+  ierr = TSCreate(PETSC_COMM_WORLD,&ts);CHKERRQ(ierr);
+  ierr = TSSetFromOptions(ts);CHKERRQ(ierr);
+  ierr = TSDestroy(&ts);CHKERRQ(ierr);
+  ierr = PetscFinalize();CHKERRQ(ierr);
+  return 0;
+}
+
+Performing C SOURCE FILE Test MULTIPASS_TEST_3_petsc_works_alllibraries failed with the following output:
+Change Dir: /lustre/home/bogdan/eqSolver/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2673084389/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2673084389.dir/build.make CMakeFiles/cmTryCompileExec2673084389.dir/build
+gmake[1]: Entering directory `/lustre/home/bogdan/eqSolver/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /lustre/home/bogdan/eqSolver/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2673084389.dir/src.c.o
+/usr/bin/cc   -DMULTIPASS_TEST_3_petsc_works_alllibraries -I/opt/software/petsc-3.9.3/include    -o CMakeFiles/cmTryCompileExec2673084389.dir/src.c.o   -c /lustre/home/bogdan/eqSolver/build/CMakeFiles/CMakeTmp/src.c
+In file included from /opt/software/petsc-3.9.3/include/petscis.h:7,
+                 from /opt/software/petsc-3.9.3/include/petscvec.h:9,
+                 from /opt/software/petsc-3.9.3/include/petscmat.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscpc.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscksp.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscsnes.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscts.h:7,
+                 from /lustre/home/bogdan/eqSolver/build/CMakeFiles/CMakeTmp/src.c:3:
+/opt/software/petsc-3.9.3/include/petscsys.h:130:19: error: mpi.h: No such file or directory
+/opt/software/petsc-3.9.3/include/petscsys.h:163:6: error: #error "PETSc was configured with OpenMPI but now appears to be compiling using a non-OpenMPI mpi.h"
+In file included from /opt/software/petsc-3.9.3/include/petscis.h:7,
+                 from /opt/software/petsc-3.9.3/include/petscvec.h:9,
+                 from /opt/software/petsc-3.9.3/include/petscmat.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscpc.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscksp.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscsnes.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscts.h:7,
+                 from /lustre/home/bogdan/eqSolver/build/CMakeFiles/CMakeTmp/src.c:3:
+/opt/software/petsc-3.9.3/include/petscsys.h:253: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘MPIU_ENUM’
+In file included from /opt/software/petsc-3.9.3/include/petscis.h:7,
+                 from /opt/software/petsc-3.9.3/include/petscvec.h:9,
+                 from /opt/software/petsc-3.9.3/include/petscmat.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscpc.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscksp.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscsnes.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscts.h:7,
+                 from /lustre/home/bogdan/eqSolver/build/CMakeFiles/CMakeTmp/src.c:3:
+/opt/software/petsc-3.9.3/include/petscsys.h:463: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘MPIU_BOOL’
+In file included from /opt/software/petsc-3.9.3/include/petscsys.h:468,
+                 from /opt/software/petsc-3.9.3/include/petscis.h:7,
+                 from /opt/software/petsc-3.9.3/include/petscvec.h:9,
+                 from /opt/software/petsc-3.9.3/include/petscmat.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscpc.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscksp.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscsnes.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscts.h:7,
+                 from /lustre/home/bogdan/eqSolver/build/CMakeFiles/CMakeTmp/src.c:3:
+/opt/software/petsc-3.9.3/include/petscmath.h:690: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘MPIU_2SCALAR’
+/opt/software/petsc-3.9.3/include/petscmath.h:693: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘MPIU_2INT’
+In file included from /opt/software/petsc-3.9.3/include/petscis.h:7,
+                 from /opt/software/petsc-3.9.3/include/petscvec.h:9,
+                 from /opt/software/petsc-3.9.3/include/petscmat.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscpc.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscksp.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscsnes.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscts.h:7,
+                 from /lustre/home/bogdan/eqSolver/build/CMakeFiles/CMakeTmp/src.c:3:
+/opt/software/petsc-3.9.3/include/petscsys.h:586: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘PETSC_COMM_WORLD’
+/opt/software/petsc-3.9.3/include/petscsys.h:607: error: expected declaration specifiers or ‘...’ before ‘MPI_Comm’
+/opt/software/petsc-3.9.3/include/petscsys.h:607: error: expected declaration specifiers or ‘...’ before ‘MPI_Comm’
+/opt/software/petsc-3.9.3/include/petscsys.h:608: error: expected ‘)’ before ‘*’ token
+/opt/software/petsc-3.9.3/include/petscsys.h:609: error: expected ‘)’ before ‘*’ token
+In file included from /opt/software/petsc-3.9.3/include/petscis.h:7,
+                 from /opt/software/petsc-3.9.3/include/petscvec.h:9,
+                 from /opt/software/petsc-3.9.3/include/petscmat.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscpc.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscksp.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscsnes.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscts.h:7,
+                 from /lustre/home/bogdan/eqSolver/build/CMakeFiles/CMakeTmp/src.c:3:
+/opt/software/petsc-3.9.3/include/petscsys.h:1432: error: expected declaration specifiers or ‘...’ before ‘MPI_Datatype’
+/opt/software/petsc-3.9.3/include/petscsys.h:1433: error: expected ‘)’ before ‘PetscDataType’
+/opt/software/petsc-3.9.3/include/petscsys.h:1470: error: expected ‘)’ before ‘const’
+/opt/software/petsc-3.9.3/include/petscsys.h:1494: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘MPIU_MAXSUM_OP’
+/opt/software/petsc-3.9.3/include/petscsys.h:1507: error: expected ‘)’ before ‘const’
+/opt/software/petsc-3.9.3/include/petscsys.h:1509: error: expected declaration specifiers or ‘...’ before ‘MPI_Datatype’
+/opt/software/petsc-3.9.3/include/petscsys.h:1509: error: expected declaration specifiers or ‘...’ before ‘MPI_Comm’
+/opt/software/petsc-3.9.3/include/petscsys.h:1510: error: expected declaration specifiers or ‘...’ before ‘MPI_Datatype’
+/opt/software/petsc-3.9.3/include/petscsys.h:1510: error: expected declaration specifiers or ‘...’ before ‘MPI_Comm’
+In file included from /opt/software/petsc-3.9.3/include/petscsys.h:1586,
+                 from /opt/software/petsc-3.9.3/include/petscis.h:7,
+                 from /opt/software/petsc-3.9.3/include/petscvec.h:9,
+                 from /opt/software/petsc-3.9.3/include/petscmat.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscpc.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscksp.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscsnes.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscts.h:7,
+                 from /lustre/home/bogdan/eqSolver/build/CMakeFiles/CMakeTmp/src.c:3:
+/opt/software/petsc-3.9.3/include/petscerror.h:546: error: expected ‘)’ before ‘int’
+/opt/software/petsc-3.9.3/include/petscerror.h:550: error: expected ‘)’ before ‘int’
+/opt/software/petsc-3.9.3/include/petscerror.h:551: error: expected ‘)’ before ‘int’
+/opt/software/petsc-3.9.3/include/petscerror.h:552: error: expected ‘)’ before ‘int’
+/opt/software/petsc-3.9.3/include/petscerror.h:553: error: expected ‘)’ before ‘int’
+/opt/software/petsc-3.9.3/include/petscerror.h:554: error: expected ‘)’ before ‘int’
+/opt/software/petsc-3.9.3/include/petscerror.h:555: error: expected ‘)’ before ‘int’
+/opt/software/petsc-3.9.3/include/petscerror.h:556: error: expected ‘)’ before ‘int’
+/opt/software/petsc-3.9.3/include/petscerror.h:557: error: expected ‘)’ before ‘int’
+/opt/software/petsc-3.9.3/include/petscerror.h:557: error: expected ‘;’, ‘,’ or ‘)’ before ‘void’
+In file included from /opt/software/petsc-3.9.3/include/petscis.h:7,
+                 from /opt/software/petsc-3.9.3/include/petscvec.h:9,
+                 from /opt/software/petsc-3.9.3/include/petscmat.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscpc.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscksp.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscsnes.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscts.h:7,
+                 from /lustre/home/bogdan/eqSolver/build/CMakeFiles/CMakeTmp/src.c:3:
+/opt/software/petsc-3.9.3/include/petscsys.h:1638: error: expected declaration specifiers or ‘...’ before ‘MPI_Comm’
+/opt/software/petsc-3.9.3/include/petscsys.h:1661: error: expected ‘)’ before ‘PetscMPIInt’
+In file included from /opt/software/petsc-3.9.3/include/petscsys.h:1664,
+                 from /opt/software/petsc-3.9.3/include/petscis.h:7,
+                 from /opt/software/petsc-3.9.3/include/petscvec.h:9,
+                 from /opt/software/petsc-3.9.3/include/petscmat.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscpc.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscksp.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscsnes.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscts.h:7,
+                 from /lustre/home/bogdan/eqSolver/build/CMakeFiles/CMakeTmp/src.c:3:
+/opt/software/petsc-3.9.3/include/petscoptions.h:42: error: expected ‘)’ before ‘PetscOptions’
+/opt/software/petsc-3.9.3/include/petscoptions.h:55: error: expected ‘)’ before ‘const’
+/opt/software/petsc-3.9.3/include/petscoptions.h:97: error: expected specifier-qualifier-list before ‘MPI_Comm’
+/opt/software/petsc-3.9.3/include/petscoptions.h:215: error: expected declaration specifiers or ‘...’ before ‘MPI_Comm’
+In file included from /opt/software/petsc-3.9.3/include/petscis.h:7,
+                 from /opt/software/petsc-3.9.3/include/petscvec.h:9,
+                 from /opt/software/petsc-3.9.3/include/petscmat.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscpc.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscksp.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscsnes.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscts.h:7,
+                 from /lustre/home/bogdan/eqSolver/build/CMakeFiles/CMakeTmp/src.c:3:
+/opt/software/petsc-3.9.3/include/petscsys.h:1666: error: expected ‘)’ before ‘PetscInt’
+In file included from /opt/software/petsc-3.9.3/include/petscis.h:7,
+                 from /opt/software/petsc-3.9.3/include/petscvec.h:9,
+                 from /opt/software/petsc-3.9.3/include/petscmat.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscpc.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscksp.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscsnes.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscts.h:7,
+                 from /lustre/home/bogdan/eqSolver/build/CMakeFiles/CMakeTmp/src.c:3:
+/opt/software/petsc-3.9.3/include/petscsys.h:1755: error: expected ‘)’ before ‘FILE’
+/opt/software/petsc-3.9.3/include/petscsys.h:1769: error: expected ‘)’ before ‘PetscDLLibrary’
+/opt/software/petsc-3.9.3/include/petscsys.h:1770: error: expected ‘)’ before ‘PetscDLLibrary’
+/opt/software/petsc-3.9.3/include/petscsys.h:1771: error: expected ‘)’ before ‘PetscDLLibrary’
+/opt/software/petsc-3.9.3/include/petscsys.h:1773: error: expected ‘)’ before ‘const’
+/opt/software/petsc-3.9.3/include/petscsys.h:1774: error: expected ‘)’ before ‘const’
+/opt/software/petsc-3.9.3/include/petscsys.h:1780: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscsys.h:1781: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscsys.h:1782: error: expected ‘)’ before ‘PetscMPIInt’
+/opt/software/petsc-3.9.3/include/petscsys.h:1783: error: expected ‘)’ before ‘PetscMPIInt’
+/opt/software/petsc-3.9.3/include/petscsys.h:1786: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscsys.h:1787: error: expected ‘)’ before ‘PetscReal’
+/opt/software/petsc-3.9.3/include/petscsys.h:1822: error: expected ‘)’ before ‘const’
+In file included from /opt/software/petsc-3.9.3/include/petscsys.h:1827,
+                 from /opt/software/petsc-3.9.3/include/petscis.h:7,
+                 from /opt/software/petsc-3.9.3/include/petscvec.h:9,
+                 from /opt/software/petsc-3.9.3/include/petscmat.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscpc.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscksp.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscsnes.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscts.h:7,
+                 from /lustre/home/bogdan/eqSolver/build/CMakeFiles/CMakeTmp/src.c:3:
+/opt/software/petsc-3.9.3/include/petsclog.h:315: error: expected declaration specifiers or ‘...’ before ‘MPI_Datatype’
+/opt/software/petsc-3.9.3/include/petsclog.h: In function ‘PetscMPITypeSize’:
+/opt/software/petsc-3.9.3/include/petsclog.h:319: error: ‘type’ undeclared (first use in this function)
+/opt/software/petsc-3.9.3/include/petsclog.h:319: error: (Each undeclared identifier is reported only once
+/opt/software/petsc-3.9.3/include/petsclog.h:319: error: for each function it appears in.)
+/opt/software/petsc-3.9.3/include/petsclog.h:319: error: ‘MPI_DATATYPE_NULL’ undeclared (first use in this function)
+/opt/software/petsc-3.9.3/include/petsclog.h:320: error: ‘MPI_COMM_SELF’ undeclared (first use in this function)
+/opt/software/petsc-3.9.3/include/petsclog.h: At top level:
+/opt/software/petsc-3.9.3/include/petsclog.h:325: error: expected ‘)’ before ‘comm’
+/opt/software/petsc-3.9.3/include/petsclog.h:342: error: expected ‘)’ before ‘comm’
+In file included from /opt/software/petsc-3.9.3/include/petscis.h:7,
+                 from /opt/software/petsc-3.9.3/include/petscvec.h:9,
+                 from /opt/software/petsc-3.9.3/include/petscmat.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscpc.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscksp.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscsnes.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscts.h:7,
+                 from /lustre/home/bogdan/eqSolver/build/CMakeFiles/CMakeTmp/src.c:3:
+/opt/software/petsc-3.9.3/include/petscsys.h:1833: error: expected ‘)’ before ‘const’
+/opt/software/petsc-3.9.3/include/petscsys.h:1834: error: expected ‘)’ before ‘FILE’
+/opt/software/petsc-3.9.3/include/petscsys.h:1835: error: expected ‘)’ before ‘FILE’
+/opt/software/petsc-3.9.3/include/petscsys.h:1836: error: expected ‘)’ before ‘const’
+/opt/software/petsc-3.9.3/include/petscsys.h:1842: error: expected ‘)’ before ‘const’
+/opt/software/petsc-3.9.3/include/petscsys.h:1845: error: expected ‘)’ before ‘const’
+/opt/software/petsc-3.9.3/include/petscsys.h:1846: error: expected ‘)’ before ‘FILE’
+/opt/software/petsc-3.9.3/include/petscsys.h:1850: error: expected ‘)’ before ‘const’
+/opt/software/petsc-3.9.3/include/petscsys.h:1851: error: expected ‘)’ before ‘FILE’
+/opt/software/petsc-3.9.3/include/petscsys.h:1852: error: expected ‘)’ before ‘FILE’
+/opt/software/petsc-3.9.3/include/petscsys.h:1853: error: expected ‘)’ before ‘FILE’
+/opt/software/petsc-3.9.3/include/petscsys.h:1854: error: expected ‘)’ before ‘const’
+/opt/software/petsc-3.9.3/include/petscsys.h:1855: error: expected ‘)’ before ‘const’
+/opt/software/petsc-3.9.3/include/petscsys.h:1870: error: expected ‘)’ before ‘PetscContainer’
+In file included from /opt/software/petsc-3.9.3/include/petscis.h:7,
+                 from /opt/software/petsc-3.9.3/include/petscvec.h:9,
+                 from /opt/software/petsc-3.9.3/include/petscmat.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscpc.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscksp.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscsnes.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscts.h:7,
+                 from /lustre/home/bogdan/eqSolver/build/CMakeFiles/CMakeTmp/src.c:3:
+/opt/software/petsc-3.9.3/include/petscsys.h:2241: error: expected ‘)’ before ‘void’
+/opt/software/petsc-3.9.3/include/petscsys.h:2242: error: expected ‘)’ before ‘void’
+/opt/software/petsc-3.9.3/include/petscsys.h: In function ‘PetscIntMultError’:
+/opt/software/petsc-3.9.3/include/petscsys.h:2454: error: ‘MPI_COMM_SELF’ undeclared (first use in this function)
+/opt/software/petsc-3.9.3/include/petscsys.h: In function ‘PetscIntSumError’:
+/opt/software/petsc-3.9.3/include/petscsys.h:2489: error: ‘MPI_COMM_SELF’ undeclared (first use in this function)
+In file included from /opt/software/petsc-3.9.3/include/petscis.h:7,
+                 from /opt/software/petsc-3.9.3/include/petscvec.h:9,
+                 from /opt/software/petsc-3.9.3/include/petscmat.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscpc.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscksp.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscsnes.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscts.h:7,
+                 from /lustre/home/bogdan/eqSolver/build/CMakeFiles/CMakeTmp/src.c:3:
+/opt/software/petsc-3.9.3/include/petscsys.h: At top level:
+/opt/software/petsc-3.9.3/include/petscsys.h:2665: error: expected ‘)’ before ‘PetscRandom’
+/opt/software/petsc-3.9.3/include/petscsys.h:2686: error: expected ‘)’ before ‘int’
+/opt/software/petsc-3.9.3/include/petscsys.h:2687: error: expected ‘)’ before ‘int’
+/opt/software/petsc-3.9.3/include/petscsys.h:2691: error: expected ‘)’ before ‘PetscBool’
+/opt/software/petsc-3.9.3/include/petscsys.h:2692: error: expected ‘)’ before ‘PetscBool’
+/opt/software/petsc-3.9.3/include/petscsys.h:2693: error: expected ‘)’ before ‘char’
+/opt/software/petsc-3.9.3/include/petscsys.h:2694: error: expected ‘)’ before ‘const’
+/opt/software/petsc-3.9.3/include/petscsys.h:2695: error: expected ‘)’ before ‘const’
+/opt/software/petsc-3.9.3/include/petscsys.h:2722: error: expected ‘)’ before ‘int’
+/opt/software/petsc-3.9.3/include/petscsys.h:2732: error: expected ‘)’ before ‘const’
+/opt/software/petsc-3.9.3/include/petscsys.h:2733: error: expected ‘)’ before ‘PetscMPIInt’
+/opt/software/petsc-3.9.3/include/petscsys.h:2734: error: expected ‘)’ before ‘PetscMPIInt’
+/opt/software/petsc-3.9.3/include/petscsys.h:2735: error: expected ‘)’ before ‘PetscMPIInt’
+/opt/software/petsc-3.9.3/include/petscsys.h:2736: error: expected ‘)’ before ‘PetscMPIInt’
+/opt/software/petsc-3.9.3/include/petscsys.h:2737: error: expected ‘)’ before ‘PetscMPIInt’
+/opt/software/petsc-3.9.3/include/petscsys.h:2739: error: expected ‘)’ before ‘PetscMPIInt’
+/opt/software/petsc-3.9.3/include/petscsys.h:2743: error: expected ‘)’ before ‘PetscMPIInt’
+/opt/software/petsc-3.9.3/include/petscsys.h:2772: error: expected ‘)’ before ‘PetscBuildTwoSidedType’
+/opt/software/petsc-3.9.3/include/petscsys.h:2773: error: expected ‘)’ before ‘PetscBuildTwoSidedType’
+/opt/software/petsc-3.9.3/include/petscsys.h:2775: error: expected ‘)’ before ‘PetscBool’
+/opt/software/petsc-3.9.3/include/petscsys.h:2820: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘PetscObjectComm’
+/opt/software/petsc-3.9.3/include/petscsys.h:2864: error: expected specifier-qualifier-list before ‘MPI_Comm’
+/opt/software/petsc-3.9.3/include/petscsys.h:2874: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘PetscSubcommParent’
+/opt/software/petsc-3.9.3/include/petscsys.h:2875: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘PetscSubcommChild’
+/opt/software/petsc-3.9.3/include/petscsys.h:2876: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘PetscSubcommContiguousParent’
+/opt/software/petsc-3.9.3/include/petscsys.h:2877: error: expected ‘)’ before ‘PetscSubcomm’
+/opt/software/petsc-3.9.3/include/petscsys.h:2908: error: expected ‘)’ before ‘PetscCommShared’
+/opt/software/petsc-3.9.3/include/petscsys.h:2910: error: expected declaration specifiers or ‘...’ before ‘MPI_Comm’
+In file included from /opt/software/petsc-3.9.3/include/petscis.h:7,
+                 from /opt/software/petsc-3.9.3/include/petscvec.h:9,
+                 from /opt/software/petsc-3.9.3/include/petscmat.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscpc.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscksp.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscsnes.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscts.h:7,
+                 from /lustre/home/bogdan/eqSolver/build/CMakeFiles/CMakeTmp/src.c:3:
+/opt/software/petsc-3.9.3/include/petscsys.h: In function ‘PetscCitationsRegister’:
+/opt/software/petsc-3.9.3/include/petscsys.h:2971: error: ‘MPI_COMM_SELF’ undeclared (first use in this function)
+/opt/software/petsc-3.9.3/include/petscsys.h: At top level:
+/opt/software/petsc-3.9.3/include/petscsys.h:2979: error: expected ‘)’ before ‘char’
+/opt/software/petsc-3.9.3/include/petscsys.h:2980: error: expected ‘)’ before ‘const’
+/opt/software/petsc-3.9.3/include/petscsys.h:2981: error: expected ‘)’ before ‘const’
+/opt/software/petsc-3.9.3/include/petscsys.h:2983: error: expected ‘)’ before ‘char’
+/opt/software/petsc-3.9.3/include/petscsys.h:2984: error: expected ‘)’ before ‘const’
+/opt/software/petsc-3.9.3/include/petscsys.h:2986: error: expected ‘)’ before ‘const’
+/opt/software/petsc-3.9.3/include/petscsys.h:2988: error: expected ‘)’ before ‘const’
+/opt/software/petsc-3.9.3/include/petscsys.h:2989: error: expected ‘)’ before ‘const’
+/opt/software/petsc-3.9.3/include/petscsys.h:3035: error: expected ‘)’ before ‘PetscMPIInt’
+/opt/software/petsc-3.9.3/include/petscsys.h:3036: error: expected ‘)’ before ‘PetscMPIInt’
+In file included from /opt/software/petsc-3.9.3/include/petscvec.h:9,
+                 from /opt/software/petsc-3.9.3/include/petscmat.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscpc.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscksp.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscsnes.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscts.h:7,
+                 from /lustre/home/bogdan/eqSolver/build/CMakeFiles/CMakeTmp/src.c:3:
+/opt/software/petsc-3.9.3/include/petscis.h:33: error: expected ‘)’ before ‘IS’
+/opt/software/petsc-3.9.3/include/petscis.h:38: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscis.h:40: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscis.h:42: error: expected ‘)’ before ‘PetscInt’
+In file included from /opt/software/petsc-3.9.3/include/petscvec.h:9,
+                 from /opt/software/petsc-3.9.3/include/petscmat.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscpc.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscksp.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscsnes.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscts.h:7,
+                 from /lustre/home/bogdan/eqSolver/build/CMakeFiles/CMakeTmp/src.c:3:
+/opt/software/petsc-3.9.3/include/petscis.h:94: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscis.h:95: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscis.h:99: error: expected declaration specifiers or ‘...’ before ‘MPI_Comm’
+/opt/software/petsc-3.9.3/include/petscis.h:131: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscis.h:153: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscis.h:179: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscis.h:181: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscis.h:202: error: expected specifier-qualifier-list before ‘MPI_Comm’
+/opt/software/petsc-3.9.3/include/petscis.h: In function ‘PetscLayoutFindOwner’:
+/opt/software/petsc-3.9.3/include/petscis.h:239: error: ‘struct _n_PetscLayout’ has no member named ‘n’
+/opt/software/petsc-3.9.3/include/petscis.h:239: error: ‘struct _n_PetscLayout’ has no member named ‘N’
+/opt/software/petsc-3.9.3/include/petscis.h:239: error: ‘struct _n_PetscLayout’ has no member named ‘range’
+/opt/software/petsc-3.9.3/include/petscis.h:239: error: ‘MPI_COMM_SELF’ undeclared (first use in this function)
+/opt/software/petsc-3.9.3/include/petscis.h:240: error: ‘struct _n_PetscLayout’ has no member named ‘N’
+/opt/software/petsc-3.9.3/include/petscis.h:241: error: ‘struct _n_PetscLayout’ has no member named ‘comm’
+/opt/software/petsc-3.9.3/include/petscis.h:244: error: ‘struct _n_PetscLayout’ has no member named ‘range’
+/opt/software/petsc-3.9.3/include/petscis.h: In function ‘PetscLayoutFindOwnerIndex’:
+/opt/software/petsc-3.9.3/include/petscis.h:276: error: ‘struct _n_PetscLayout’ has no member named ‘n’
+/opt/software/petsc-3.9.3/include/petscis.h:276: error: ‘struct _n_PetscLayout’ has no member named ‘N’
+/opt/software/petsc-3.9.3/include/petscis.h:276: error: ‘struct _n_PetscLayout’ has no member named ‘range’
+/opt/software/petsc-3.9.3/include/petscis.h:276: error: ‘MPI_COMM_SELF’ undeclared (first use in this function)
+/opt/software/petsc-3.9.3/include/petscis.h:277: error: ‘struct _n_PetscLayout’ has no member named ‘N’
+/opt/software/petsc-3.9.3/include/petscis.h:278: error: ‘struct _n_PetscLayout’ has no member named ‘comm’
+/opt/software/petsc-3.9.3/include/petscis.h:281: error: ‘struct _n_PetscLayout’ has no member named ‘range’
+/opt/software/petsc-3.9.3/include/petscis.h:285: error: ‘struct _n_PetscLayout’ has no member named ‘range’
+/opt/software/petsc-3.9.3/include/petscis.h: At top level:
+/opt/software/petsc-3.9.3/include/petscis.h:289: error: expected ‘)’ before ‘PetscLayout’
+/opt/software/petsc-3.9.3/include/petscis.h:308: error: expected ‘)’ before ‘PetscSection’
+/opt/software/petsc-3.9.3/include/petscis.h:358: error: expected ‘)’ before ‘PetscSection’
+/opt/software/petsc-3.9.3/include/petscis.h:359: error: expected ‘)’ before ‘PetscSection’
+/opt/software/petsc-3.9.3/include/petscis.h:387: error: expected ‘)’ before ‘PetscSectionSym’
+In file included from /opt/software/petsc-3.9.3/include/petscvec.h:10,
+                 from /opt/software/petsc-3.9.3/include/petscmat.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscpc.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscksp.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscsnes.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscts.h:7,
+                 from /lustre/home/bogdan/eqSolver/build/CMakeFiles/CMakeTmp/src.c:3:
+/opt/software/petsc-3.9.3/include/petscviewer.h:40: error: expected ‘)’ before ‘PetscViewer’
+/opt/software/petsc-3.9.3/include/petscviewer.h:42: error: expected ‘)’ before ‘FILE’
+/opt/software/petsc-3.9.3/include/petscviewer.h:44: error: expected ‘)’ before ‘const’
+/opt/software/petsc-3.9.3/include/petscviewer.h:46: error: expected ‘)’ before ‘const’
+/opt/software/petsc-3.9.3/include/petscviewer.h:52: error: expected declaration specifiers or ‘...’ before ‘MPI_File’
+/opt/software/petsc-3.9.3/include/petscviewer.h:53: error: expected declaration specifiers or ‘...’ before ‘MPI_Offset’
+/opt/software/petsc-3.9.3/include/petscviewer.h:54: error: expected declaration specifiers or ‘...’ before ‘MPI_Offset’
+/opt/software/petsc-3.9.3/include/petscviewer.h:57: error: expected ‘)’ before ‘const’
+/opt/software/petsc-3.9.3/include/petscviewer.h:58: error: expected ‘)’ before ‘char’
+/opt/software/petsc-3.9.3/include/petscviewer.h:59: error: expected ‘)’ before ‘const’
+/opt/software/petsc-3.9.3/include/petscviewer.h:70: error: expected ‘)’ before ‘int’
+/opt/software/petsc-3.9.3/include/petscviewer.h:71: error: expected ‘)’ before ‘const’
+/opt/software/petsc-3.9.3/include/petscviewer.h:72: error: expected ‘)’ before ‘const’
+/opt/software/petsc-3.9.3/include/petscviewer.h:82: error: expected ‘)’ before ‘PetscViewerGLVisType’
+In file included from /opt/software/petsc-3.9.3/include/petscvec.h:10,
+                 from /opt/software/petsc-3.9.3/include/petscmat.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscpc.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscksp.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscsnes.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscts.h:7,
+                 from /lustre/home/bogdan/eqSolver/build/CMakeFiles/CMakeTmp/src.c:3:
+/opt/software/petsc-3.9.3/include/petscviewer.h:90: error: expected declaration specifiers or ‘...’ before ‘MPI_Comm’
+/opt/software/petsc-3.9.3/include/petscviewer.h:91: error: expected declaration specifiers or ‘...’ before ‘MPI_Comm’
+/opt/software/petsc-3.9.3/include/petscviewer.h:156: error: expected ‘)’ before ‘const’
+/opt/software/petsc-3.9.3/include/petscviewer.h:235: error: expected ‘)’ before ‘const’
+/opt/software/petsc-3.9.3/include/petscviewer.h:240: warning: parameter names (without types) in function declaration
+/opt/software/petsc-3.9.3/include/petscviewer.h:241: error: expected ‘)’ before ‘PetscViewer’
+/opt/software/petsc-3.9.3/include/petscviewer.h:242: warning: parameter names (without types) in function declaration
+/opt/software/petsc-3.9.3/include/petscviewer.h:243: error: expected ‘)’ before ‘PetscViewer’
+/opt/software/petsc-3.9.3/include/petscviewer.h:244: warning: parameter names (without types) in function declaration
+/opt/software/petsc-3.9.3/include/petscviewer.h:245: warning: parameter names (without types) in function declaration
+/opt/software/petsc-3.9.3/include/petscviewer.h:246: warning: parameter names (without types) in function declaration
+/opt/software/petsc-3.9.3/include/petscviewer.h:247: warning: parameter names (without types) in function declaration
+/opt/software/petsc-3.9.3/include/petscviewer.h:248: warning: parameter names (without types) in function declaration
+/opt/software/petsc-3.9.3/include/petscviewer.h:249: warning: parameter names (without types) in function declaration
+/opt/software/petsc-3.9.3/include/petscviewer.h:355: error: expected ‘)’ before ‘PetscViewers’
+In file included from /opt/software/petsc-3.9.3/include/petscmat.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscpc.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscksp.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscsnes.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscts.h:7,
+                 from /lustre/home/bogdan/eqSolver/build/CMakeFiles/CMakeTmp/src.c:3:
+/opt/software/petsc-3.9.3/include/petscvec.h:142: error: expected ‘)’ before ‘Vec’
+/opt/software/petsc-3.9.3/include/petscvec.h:143: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscvec.h:144: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscvec.h:145: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscvec.h:146: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscvec.h:147: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscvec.h:148: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscvec.h:345: error: expected ‘)’ before ‘VecScatter’
+/opt/software/petsc-3.9.3/include/petscvec.h:435: warning: parameter names (without types) in function declaration
+/opt/software/petsc-3.9.3/include/petscvec.h: In function ‘VecGetArrayPair’:
+/opt/software/petsc-3.9.3/include/petscvec.h:475: error: ‘MPI_COMM_SELF’ undeclared (first use in this function)
+/opt/software/petsc-3.9.3/include/petscvec.h: In function ‘VecRestoreArrayPair’:
+/opt/software/petsc-3.9.3/include/petscvec.h:509: error: ‘MPI_COMM_SELF’ undeclared (first use in this function)
+/opt/software/petsc-3.9.3/include/petscvec.h: At top level:
+/opt/software/petsc-3.9.3/include/petscvec.h:542: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscvec.h:543: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscvec.h:544: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscvec.h:545: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscvec.h:595: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscvec.h:596: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscvec.h:626: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscvec.h:640: error: expected ‘)’ before ‘Vec’
+/opt/software/petsc-3.9.3/include/petscvec.h:672: error: expected ‘)’ before ‘VecTagger’
+In file included from /opt/software/petsc-3.9.3/include/petscpc.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscksp.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscsnes.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscts.h:7,
+                 from /lustre/home/bogdan/eqSolver/build/CMakeFiles/CMakeTmp/src.c:3:
+/opt/software/petsc-3.9.3/include/petscmat.h:185: error: expected ‘)’ before ‘Mat’
+/opt/software/petsc-3.9.3/include/petscmat.h:216: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscmat.h:217: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscmat.h:221: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscmat.h:222: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscmat.h:223: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscmat.h:224: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscmat.h:225: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscmat.h:226: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscmat.h:227: error: expected ‘)’ before ‘Mat’
+/opt/software/petsc-3.9.3/include/petscmat.h:229: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscmat.h:230: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscmat.h:231: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscmat.h:233: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscmat.h:234: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscmat.h:236: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscmat.h:237: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscmat.h:242: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscmat.h:247: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscmat.h:248: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscmat.h:249: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscmat.h:251: error: expected ‘)’ before ‘VecScatter’
+/opt/software/petsc-3.9.3/include/petscmat.h:254: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscmat.h:257: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscmat.h:261: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscmat.h:262: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscmat.h:553: error: expected ‘)’ before ‘Mat’
+/opt/software/petsc-3.9.3/include/petscmat.h:554: error: expected ‘)’ before ‘Mat’
+/opt/software/petsc-3.9.3/include/petscmat.h:610: error: expected declaration specifiers or ‘...’ before ‘MPI_Comm’
+/opt/software/petsc-3.9.3/include/petscmat.h:611: error: expected declaration specifiers or ‘...’ before ‘MPI_Comm’
+/opt/software/petsc-3.9.3/include/petscmat.h:614: error: expected ‘)’ before ‘Mat’
+/opt/software/petsc-3.9.3/include/petscmat.h:1011: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscmat.h:1012: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscmat.h:1013: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscmat.h:1014: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscmat.h:1328: error: expected ‘)’ before ‘MatPartitioning’
+/opt/software/petsc-3.9.3/include/petscmat.h:1595: error: expected ‘)’ before ‘PetscBool’
+/opt/software/petsc-3.9.3/include/petscmat.h:1624: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscmat.h:1804: error: expected ‘)’ before ‘PetscInt’
+In file included from /opt/software/petsc-3.9.3/include/petscksp.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscsnes.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscts.h:7,
+                 from /lustre/home/bogdan/eqSolver/build/CMakeFiles/CMakeTmp/src.c:3:
+/opt/software/petsc-3.9.3/include/petscpc.h:20: error: expected ‘)’ before ‘PC’
+In file included from /opt/software/petsc-3.9.3/include/petscksp.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscsnes.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscts.h:7,
+                 from /lustre/home/bogdan/eqSolver/build/CMakeFiles/CMakeTmp/src.c:3:
+/opt/software/petsc-3.9.3/include/petscpc.h:307: error: expected declaration specifiers or ‘...’ before ‘MPI_Comm’
+In file included from /opt/software/petsc-3.9.3/include/petscsnes.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscts.h:7,
+                 from /lustre/home/bogdan/eqSolver/build/CMakeFiles/CMakeTmp/src.c:3:
+/opt/software/petsc-3.9.3/include/petscksp.h:82: error: expected ‘)’ before ‘KSP’
+In file included from /opt/software/petsc-3.9.3/include/petscsnes.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscts.h:7,
+                 from /lustre/home/bogdan/eqSolver/build/CMakeFiles/CMakeTmp/src.c:3:
+/opt/software/petsc-3.9.3/include/petscksp.h:632: error: expected ‘)’ before ‘const’
+/opt/software/petsc-3.9.3/include/petscksp.h:634: error: expected ‘)’ before ‘const’
+/opt/software/petsc-3.9.3/include/petscksp.h:665: error: expected ‘)’ before ‘KSPGuess’
+In file included from /opt/software/petsc-3.9.3/include/petscts.h:7,
+                 from /lustre/home/bogdan/eqSolver/build/CMakeFiles/CMakeTmp/src.c:3:
+/opt/software/petsc-3.9.3/include/petscsnes.h:56: error: expected ‘)’ before ‘SNES’
+In file included from /opt/software/petsc-3.9.3/include/petscts.h:7,
+                 from /lustre/home/bogdan/eqSolver/build/CMakeFiles/CMakeTmp/src.c:3:
+/opt/software/petsc-3.9.3/include/petscsnes.h:126: error: expected ‘)’ before ‘const’
+/opt/software/petsc-3.9.3/include/petscsnes.h:166: error: expected ‘)’ before ‘const’
+/opt/software/petsc-3.9.3/include/petscsnes.h:543: error: expected ‘)’ before ‘SNESLineSearch’
+/opt/software/petsc-3.9.3/include/petscsnes.h:831: error: expected declaration specifiers or ‘...’ before ‘MPI_Comm’
+In file included from /lustre/home/bogdan/eqSolver/build/CMakeFiles/CMakeTmp/src.c:3:
+/opt/software/petsc-3.9.3/include/petscts.h:219: error: expected ‘)’ before ‘TS’
+/opt/software/petsc-3.9.3/include/petscts.h:283: error: expected ‘)’ before ‘TSTrajectory’
+/opt/software/petsc-3.9.3/include/petscts.h:350: error: expected ‘)’ before ‘const’
+/opt/software/petsc-3.9.3/include/petscts.h:547: error: expected ‘)’ before ‘const’
+/opt/software/petsc-3.9.3/include/petscts.h:570: error: expected ‘)’ before ‘const’
+/opt/software/petsc-3.9.3/include/petscts.h:623: error: expected ‘)’ before ‘TSAdapt’
+/opt/software/petsc-3.9.3/include/petscts.h:676: error: expected ‘)’ before ‘TSGLLEAdapt’
+/lustre/home/bogdan/eqSolver/build/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/lustre/home/bogdan/eqSolver/build/CMakeFiles/CMakeTmp/src.c:8: error: ‘MPI_COMM_SELF’ undeclared (first use in this function)
+/lustre/home/bogdan/eqSolver/build/CMakeFiles/CMakeTmp/src.c:9: error: ‘PETSC_COMM_WORLD’ undeclared (first use in this function)
+gmake[1]: *** [CMakeFiles/cmTryCompileExec2673084389.dir/src.c.o] Error 1
+gmake[1]: Leaving directory `/lustre/home/bogdan/eqSolver/build/CMakeFiles/CMakeTmp'
+gmake: *** [cmTryCompileExec2673084389/fast] Error 2
+
+Return value: 1
+Source file was:
+
+static const char help[] = "PETSc test program.";
+#include <petscts.h>
+int main(int argc,char *argv[]) {
+  PetscErrorCode ierr;
+  TS ts;
+
+  ierr = PetscInitialize(&argc,&argv,0,help);CHKERRQ(ierr);
+  ierr = TSCreate(PETSC_COMM_WORLD,&ts);CHKERRQ(ierr);
+  ierr = TSSetFromOptions(ts);CHKERRQ(ierr);
+  ierr = TSDestroy(&ts);CHKERRQ(ierr);
+  ierr = PetscFinalize();CHKERRQ(ierr);
+  return 0;
+}
+
+Performing C SOURCE FILE Test MULTIPASS_TEST_4_petsc_works_all failed with the following output:
+Change Dir: /lustre/home/bogdan/eqSolver/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3278192084/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3278192084.dir/build.make CMakeFiles/cmTryCompileExec3278192084.dir/build
+gmake[1]: Entering directory `/lustre/home/bogdan/eqSolver/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /lustre/home/bogdan/eqSolver/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3278192084.dir/src.c.o
+/usr/bin/cc   -DMULTIPASS_TEST_4_petsc_works_all -I/opt/software/petsc-3.9.3/include    -o CMakeFiles/cmTryCompileExec3278192084.dir/src.c.o   -c /lustre/home/bogdan/eqSolver/build/CMakeFiles/CMakeTmp/src.c
+In file included from /opt/software/petsc-3.9.3/include/petscis.h:7,
+                 from /opt/software/petsc-3.9.3/include/petscvec.h:9,
+                 from /opt/software/petsc-3.9.3/include/petscmat.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscpc.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscksp.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscsnes.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscts.h:7,
+                 from /lustre/home/bogdan/eqSolver/build/CMakeFiles/CMakeTmp/src.c:3:
+/opt/software/petsc-3.9.3/include/petscsys.h:130:19: error: mpi.h: No such file or directory
+/opt/software/petsc-3.9.3/include/petscsys.h:163:6: error: #error "PETSc was configured with OpenMPI but now appears to be compiling using a non-OpenMPI mpi.h"
+In file included from /opt/software/petsc-3.9.3/include/petscis.h:7,
+                 from /opt/software/petsc-3.9.3/include/petscvec.h:9,
+                 from /opt/software/petsc-3.9.3/include/petscmat.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscpc.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscksp.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscsnes.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscts.h:7,
+                 from /lustre/home/bogdan/eqSolver/build/CMakeFiles/CMakeTmp/src.c:3:
+/opt/software/petsc-3.9.3/include/petscsys.h:253: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘MPIU_ENUM’
+In file included from /opt/software/petsc-3.9.3/include/petscis.h:7,
+                 from /opt/software/petsc-3.9.3/include/petscvec.h:9,
+                 from /opt/software/petsc-3.9.3/include/petscmat.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscpc.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscksp.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscsnes.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscts.h:7,
+                 from /lustre/home/bogdan/eqSolver/build/CMakeFiles/CMakeTmp/src.c:3:
+/opt/software/petsc-3.9.3/include/petscsys.h:463: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘MPIU_BOOL’
+In file included from /opt/software/petsc-3.9.3/include/petscsys.h:468,
+                 from /opt/software/petsc-3.9.3/include/petscis.h:7,
+                 from /opt/software/petsc-3.9.3/include/petscvec.h:9,
+                 from /opt/software/petsc-3.9.3/include/petscmat.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscpc.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscksp.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscsnes.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscts.h:7,
+                 from /lustre/home/bogdan/eqSolver/build/CMakeFiles/CMakeTmp/src.c:3:
+/opt/software/petsc-3.9.3/include/petscmath.h:690: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘MPIU_2SCALAR’
+/opt/software/petsc-3.9.3/include/petscmath.h:693: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘MPIU_2INT’
+In file included from /opt/software/petsc-3.9.3/include/petscis.h:7,
+                 from /opt/software/petsc-3.9.3/include/petscvec.h:9,
+                 from /opt/software/petsc-3.9.3/include/petscmat.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscpc.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscksp.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscsnes.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscts.h:7,
+                 from /lustre/home/bogdan/eqSolver/build/CMakeFiles/CMakeTmp/src.c:3:
+/opt/software/petsc-3.9.3/include/petscsys.h:586: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘PETSC_COMM_WORLD’
+/opt/software/petsc-3.9.3/include/petscsys.h:607: error: expected declaration specifiers or ‘...’ before ‘MPI_Comm’
+/opt/software/petsc-3.9.3/include/petscsys.h:607: error: expected declaration specifiers or ‘...’ before ‘MPI_Comm’
+/opt/software/petsc-3.9.3/include/petscsys.h:608: error: expected ‘)’ before ‘*’ token
+/opt/software/petsc-3.9.3/include/petscsys.h:609: error: expected ‘)’ before ‘*’ token
+In file included from /opt/software/petsc-3.9.3/include/petscis.h:7,
+                 from /opt/software/petsc-3.9.3/include/petscvec.h:9,
+                 from /opt/software/petsc-3.9.3/include/petscmat.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscpc.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscksp.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscsnes.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscts.h:7,
+                 from /lustre/home/bogdan/eqSolver/build/CMakeFiles/CMakeTmp/src.c:3:
+/opt/software/petsc-3.9.3/include/petscsys.h:1432: error: expected declaration specifiers or ‘...’ before ‘MPI_Datatype’
+/opt/software/petsc-3.9.3/include/petscsys.h:1433: error: expected ‘)’ before ‘PetscDataType’
+/opt/software/petsc-3.9.3/include/petscsys.h:1470: error: expected ‘)’ before ‘const’
+/opt/software/petsc-3.9.3/include/petscsys.h:1494: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘MPIU_MAXSUM_OP’
+/opt/software/petsc-3.9.3/include/petscsys.h:1507: error: expected ‘)’ before ‘const’
+/opt/software/petsc-3.9.3/include/petscsys.h:1509: error: expected declaration specifiers or ‘...’ before ‘MPI_Datatype’
+/opt/software/petsc-3.9.3/include/petscsys.h:1509: error: expected declaration specifiers or ‘...’ before ‘MPI_Comm’
+/opt/software/petsc-3.9.3/include/petscsys.h:1510: error: expected declaration specifiers or ‘...’ before ‘MPI_Datatype’
+/opt/software/petsc-3.9.3/include/petscsys.h:1510: error: expected declaration specifiers or ‘...’ before ‘MPI_Comm’
+In file included from /opt/software/petsc-3.9.3/include/petscsys.h:1586,
+                 from /opt/software/petsc-3.9.3/include/petscis.h:7,
+                 from /opt/software/petsc-3.9.3/include/petscvec.h:9,
+                 from /opt/software/petsc-3.9.3/include/petscmat.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscpc.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscksp.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscsnes.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscts.h:7,
+                 from /lustre/home/bogdan/eqSolver/build/CMakeFiles/CMakeTmp/src.c:3:
+/opt/software/petsc-3.9.3/include/petscerror.h:546: error: expected ‘)’ before ‘int’
+/opt/software/petsc-3.9.3/include/petscerror.h:550: error: expected ‘)’ before ‘int’
+/opt/software/petsc-3.9.3/include/petscerror.h:551: error: expected ‘)’ before ‘int’
+/opt/software/petsc-3.9.3/include/petscerror.h:552: error: expected ‘)’ before ‘int’
+/opt/software/petsc-3.9.3/include/petscerror.h:553: error: expected ‘)’ before ‘int’
+/opt/software/petsc-3.9.3/include/petscerror.h:554: error: expected ‘)’ before ‘int’
+/opt/software/petsc-3.9.3/include/petscerror.h:555: error: expected ‘)’ before ‘int’
+/opt/software/petsc-3.9.3/include/petscerror.h:556: error: expected ‘)’ before ‘int’
+/opt/software/petsc-3.9.3/include/petscerror.h:557: error: expected ‘)’ before ‘int’
+/opt/software/petsc-3.9.3/include/petscerror.h:557: error: expected ‘;’, ‘,’ or ‘)’ before ‘void’
+In file included from /opt/software/petsc-3.9.3/include/petscis.h:7,
+                 from /opt/software/petsc-3.9.3/include/petscvec.h:9,
+                 from /opt/software/petsc-3.9.3/include/petscmat.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscpc.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscksp.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscsnes.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscts.h:7,
+                 from /lustre/home/bogdan/eqSolver/build/CMakeFiles/CMakeTmp/src.c:3:
+/opt/software/petsc-3.9.3/include/petscsys.h:1638: error: expected declaration specifiers or ‘...’ before ‘MPI_Comm’
+/opt/software/petsc-3.9.3/include/petscsys.h:1661: error: expected ‘)’ before ‘PetscMPIInt’
+In file included from /opt/software/petsc-3.9.3/include/petscsys.h:1664,
+                 from /opt/software/petsc-3.9.3/include/petscis.h:7,
+                 from /opt/software/petsc-3.9.3/include/petscvec.h:9,
+                 from /opt/software/petsc-3.9.3/include/petscmat.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscpc.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscksp.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscsnes.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscts.h:7,
+                 from /lustre/home/bogdan/eqSolver/build/CMakeFiles/CMakeTmp/src.c:3:
+/opt/software/petsc-3.9.3/include/petscoptions.h:42: error: expected ‘)’ before ‘PetscOptions’
+/opt/software/petsc-3.9.3/include/petscoptions.h:55: error: expected ‘)’ before ‘const’
+/opt/software/petsc-3.9.3/include/petscoptions.h:97: error: expected specifier-qualifier-list before ‘MPI_Comm’
+/opt/software/petsc-3.9.3/include/petscoptions.h:215: error: expected declaration specifiers or ‘...’ before ‘MPI_Comm’
+In file included from /opt/software/petsc-3.9.3/include/petscis.h:7,
+                 from /opt/software/petsc-3.9.3/include/petscvec.h:9,
+                 from /opt/software/petsc-3.9.3/include/petscmat.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscpc.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscksp.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscsnes.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscts.h:7,
+                 from /lustre/home/bogdan/eqSolver/build/CMakeFiles/CMakeTmp/src.c:3:
+/opt/software/petsc-3.9.3/include/petscsys.h:1666: error: expected ‘)’ before ‘PetscInt’
+In file included from /opt/software/petsc-3.9.3/include/petscis.h:7,
+                 from /opt/software/petsc-3.9.3/include/petscvec.h:9,
+                 from /opt/software/petsc-3.9.3/include/petscmat.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscpc.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscksp.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscsnes.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscts.h:7,
+                 from /lustre/home/bogdan/eqSolver/build/CMakeFiles/CMakeTmp/src.c:3:
+/opt/software/petsc-3.9.3/include/petscsys.h:1755: error: expected ‘)’ before ‘FILE’
+/opt/software/petsc-3.9.3/include/petscsys.h:1769: error: expected ‘)’ before ‘PetscDLLibrary’
+/opt/software/petsc-3.9.3/include/petscsys.h:1770: error: expected ‘)’ before ‘PetscDLLibrary’
+/opt/software/petsc-3.9.3/include/petscsys.h:1771: error: expected ‘)’ before ‘PetscDLLibrary’
+/opt/software/petsc-3.9.3/include/petscsys.h:1773: error: expected ‘)’ before ‘const’
+/opt/software/petsc-3.9.3/include/petscsys.h:1774: error: expected ‘)’ before ‘const’
+/opt/software/petsc-3.9.3/include/petscsys.h:1780: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscsys.h:1781: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscsys.h:1782: error: expected ‘)’ before ‘PetscMPIInt’
+/opt/software/petsc-3.9.3/include/petscsys.h:1783: error: expected ‘)’ before ‘PetscMPIInt’
+/opt/software/petsc-3.9.3/include/petscsys.h:1786: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscsys.h:1787: error: expected ‘)’ before ‘PetscReal’
+/opt/software/petsc-3.9.3/include/petscsys.h:1822: error: expected ‘)’ before ‘const’
+In file included from /opt/software/petsc-3.9.3/include/petscsys.h:1827,
+                 from /opt/software/petsc-3.9.3/include/petscis.h:7,
+                 from /opt/software/petsc-3.9.3/include/petscvec.h:9,
+                 from /opt/software/petsc-3.9.3/include/petscmat.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscpc.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscksp.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscsnes.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscts.h:7,
+                 from /lustre/home/bogdan/eqSolver/build/CMakeFiles/CMakeTmp/src.c:3:
+/opt/software/petsc-3.9.3/include/petsclog.h:315: error: expected declaration specifiers or ‘...’ before ‘MPI_Datatype’
+/opt/software/petsc-3.9.3/include/petsclog.h: In function ‘PetscMPITypeSize’:
+/opt/software/petsc-3.9.3/include/petsclog.h:319: error: ‘type’ undeclared (first use in this function)
+/opt/software/petsc-3.9.3/include/petsclog.h:319: error: (Each undeclared identifier is reported only once
+/opt/software/petsc-3.9.3/include/petsclog.h:319: error: for each function it appears in.)
+/opt/software/petsc-3.9.3/include/petsclog.h:319: error: ‘MPI_DATATYPE_NULL’ undeclared (first use in this function)
+/opt/software/petsc-3.9.3/include/petsclog.h:320: error: ‘MPI_COMM_SELF’ undeclared (first use in this function)
+/opt/software/petsc-3.9.3/include/petsclog.h: At top level:
+/opt/software/petsc-3.9.3/include/petsclog.h:325: error: expected ‘)’ before ‘comm’
+/opt/software/petsc-3.9.3/include/petsclog.h:342: error: expected ‘)’ before ‘comm’
+In file included from /opt/software/petsc-3.9.3/include/petscis.h:7,
+                 from /opt/software/petsc-3.9.3/include/petscvec.h:9,
+                 from /opt/software/petsc-3.9.3/include/petscmat.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscpc.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscksp.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscsnes.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscts.h:7,
+                 from /lustre/home/bogdan/eqSolver/build/CMakeFiles/CMakeTmp/src.c:3:
+/opt/software/petsc-3.9.3/include/petscsys.h:1833: error: expected ‘)’ before ‘const’
+/opt/software/petsc-3.9.3/include/petscsys.h:1834: error: expected ‘)’ before ‘FILE’
+/opt/software/petsc-3.9.3/include/petscsys.h:1835: error: expected ‘)’ before ‘FILE’
+/opt/software/petsc-3.9.3/include/petscsys.h:1836: error: expected ‘)’ before ‘const’
+/opt/software/petsc-3.9.3/include/petscsys.h:1842: error: expected ‘)’ before ‘const’
+/opt/software/petsc-3.9.3/include/petscsys.h:1845: error: expected ‘)’ before ‘const’
+/opt/software/petsc-3.9.3/include/petscsys.h:1846: error: expected ‘)’ before ‘FILE’
+/opt/software/petsc-3.9.3/include/petscsys.h:1850: error: expected ‘)’ before ‘const’
+/opt/software/petsc-3.9.3/include/petscsys.h:1851: error: expected ‘)’ before ‘FILE’
+/opt/software/petsc-3.9.3/include/petscsys.h:1852: error: expected ‘)’ before ‘FILE’
+/opt/software/petsc-3.9.3/include/petscsys.h:1853: error: expected ‘)’ before ‘FILE’
+/opt/software/petsc-3.9.3/include/petscsys.h:1854: error: expected ‘)’ before ‘const’
+/opt/software/petsc-3.9.3/include/petscsys.h:1855: error: expected ‘)’ before ‘const’
+/opt/software/petsc-3.9.3/include/petscsys.h:1870: error: expected ‘)’ before ‘PetscContainer’
+In file included from /opt/software/petsc-3.9.3/include/petscis.h:7,
+                 from /opt/software/petsc-3.9.3/include/petscvec.h:9,
+                 from /opt/software/petsc-3.9.3/include/petscmat.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscpc.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscksp.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscsnes.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscts.h:7,
+                 from /lustre/home/bogdan/eqSolver/build/CMakeFiles/CMakeTmp/src.c:3:
+/opt/software/petsc-3.9.3/include/petscsys.h:2241: error: expected ‘)’ before ‘void’
+/opt/software/petsc-3.9.3/include/petscsys.h:2242: error: expected ‘)’ before ‘void’
+/opt/software/petsc-3.9.3/include/petscsys.h: In function ‘PetscIntMultError’:
+/opt/software/petsc-3.9.3/include/petscsys.h:2454: error: ‘MPI_COMM_SELF’ undeclared (first use in this function)
+/opt/software/petsc-3.9.3/include/petscsys.h: In function ‘PetscIntSumError’:
+/opt/software/petsc-3.9.3/include/petscsys.h:2489: error: ‘MPI_COMM_SELF’ undeclared (first use in this function)
+In file included from /opt/software/petsc-3.9.3/include/petscis.h:7,
+                 from /opt/software/petsc-3.9.3/include/petscvec.h:9,
+                 from /opt/software/petsc-3.9.3/include/petscmat.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscpc.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscksp.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscsnes.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscts.h:7,
+                 from /lustre/home/bogdan/eqSolver/build/CMakeFiles/CMakeTmp/src.c:3:
+/opt/software/petsc-3.9.3/include/petscsys.h: At top level:
+/opt/software/petsc-3.9.3/include/petscsys.h:2665: error: expected ‘)’ before ‘PetscRandom’
+/opt/software/petsc-3.9.3/include/petscsys.h:2686: error: expected ‘)’ before ‘int’
+/opt/software/petsc-3.9.3/include/petscsys.h:2687: error: expected ‘)’ before ‘int’
+/opt/software/petsc-3.9.3/include/petscsys.h:2691: error: expected ‘)’ before ‘PetscBool’
+/opt/software/petsc-3.9.3/include/petscsys.h:2692: error: expected ‘)’ before ‘PetscBool’
+/opt/software/petsc-3.9.3/include/petscsys.h:2693: error: expected ‘)’ before ‘char’
+/opt/software/petsc-3.9.3/include/petscsys.h:2694: error: expected ‘)’ before ‘const’
+/opt/software/petsc-3.9.3/include/petscsys.h:2695: error: expected ‘)’ before ‘const’
+/opt/software/petsc-3.9.3/include/petscsys.h:2722: error: expected ‘)’ before ‘int’
+/opt/software/petsc-3.9.3/include/petscsys.h:2732: error: expected ‘)’ before ‘const’
+/opt/software/petsc-3.9.3/include/petscsys.h:2733: error: expected ‘)’ before ‘PetscMPIInt’
+/opt/software/petsc-3.9.3/include/petscsys.h:2734: error: expected ‘)’ before ‘PetscMPIInt’
+/opt/software/petsc-3.9.3/include/petscsys.h:2735: error: expected ‘)’ before ‘PetscMPIInt’
+/opt/software/petsc-3.9.3/include/petscsys.h:2736: error: expected ‘)’ before ‘PetscMPIInt’
+/opt/software/petsc-3.9.3/include/petscsys.h:2737: error: expected ‘)’ before ‘PetscMPIInt’
+/opt/software/petsc-3.9.3/include/petscsys.h:2739: error: expected ‘)’ before ‘PetscMPIInt’
+/opt/software/petsc-3.9.3/include/petscsys.h:2743: error: expected ‘)’ before ‘PetscMPIInt’
+/opt/software/petsc-3.9.3/include/petscsys.h:2772: error: expected ‘)’ before ‘PetscBuildTwoSidedType’
+/opt/software/petsc-3.9.3/include/petscsys.h:2773: error: expected ‘)’ before ‘PetscBuildTwoSidedType’
+/opt/software/petsc-3.9.3/include/petscsys.h:2775: error: expected ‘)’ before ‘PetscBool’
+/opt/software/petsc-3.9.3/include/petscsys.h:2820: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘PetscObjectComm’
+/opt/software/petsc-3.9.3/include/petscsys.h:2864: error: expected specifier-qualifier-list before ‘MPI_Comm’
+/opt/software/petsc-3.9.3/include/petscsys.h:2874: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘PetscSubcommParent’
+/opt/software/petsc-3.9.3/include/petscsys.h:2875: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘PetscSubcommChild’
+/opt/software/petsc-3.9.3/include/petscsys.h:2876: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘PetscSubcommContiguousParent’
+/opt/software/petsc-3.9.3/include/petscsys.h:2877: error: expected ‘)’ before ‘PetscSubcomm’
+/opt/software/petsc-3.9.3/include/petscsys.h:2908: error: expected ‘)’ before ‘PetscCommShared’
+/opt/software/petsc-3.9.3/include/petscsys.h:2910: error: expected declaration specifiers or ‘...’ before ‘MPI_Comm’
+In file included from /opt/software/petsc-3.9.3/include/petscis.h:7,
+                 from /opt/software/petsc-3.9.3/include/petscvec.h:9,
+                 from /opt/software/petsc-3.9.3/include/petscmat.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscpc.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscksp.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscsnes.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscts.h:7,
+                 from /lustre/home/bogdan/eqSolver/build/CMakeFiles/CMakeTmp/src.c:3:
+/opt/software/petsc-3.9.3/include/petscsys.h: In function ‘PetscCitationsRegister’:
+/opt/software/petsc-3.9.3/include/petscsys.h:2971: error: ‘MPI_COMM_SELF’ undeclared (first use in this function)
+/opt/software/petsc-3.9.3/include/petscsys.h: At top level:
+/opt/software/petsc-3.9.3/include/petscsys.h:2979: error: expected ‘)’ before ‘char’
+/opt/software/petsc-3.9.3/include/petscsys.h:2980: error: expected ‘)’ before ‘const’
+/opt/software/petsc-3.9.3/include/petscsys.h:2981: error: expected ‘)’ before ‘const’
+/opt/software/petsc-3.9.3/include/petscsys.h:2983: error: expected ‘)’ before ‘char’
+/opt/software/petsc-3.9.3/include/petscsys.h:2984: error: expected ‘)’ before ‘const’
+/opt/software/petsc-3.9.3/include/petscsys.h:2986: error: expected ‘)’ before ‘const’
+/opt/software/petsc-3.9.3/include/petscsys.h:2988: error: expected ‘)’ before ‘const’
+/opt/software/petsc-3.9.3/include/petscsys.h:2989: error: expected ‘)’ before ‘const’
+/opt/software/petsc-3.9.3/include/petscsys.h:3035: error: expected ‘)’ before ‘PetscMPIInt’
+/opt/software/petsc-3.9.3/include/petscsys.h:3036: error: expected ‘)’ before ‘PetscMPIInt’
+In file included from /opt/software/petsc-3.9.3/include/petscvec.h:9,
+                 from /opt/software/petsc-3.9.3/include/petscmat.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscpc.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscksp.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscsnes.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscts.h:7,
+                 from /lustre/home/bogdan/eqSolver/build/CMakeFiles/CMakeTmp/src.c:3:
+/opt/software/petsc-3.9.3/include/petscis.h:33: error: expected ‘)’ before ‘IS’
+/opt/software/petsc-3.9.3/include/petscis.h:38: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscis.h:40: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscis.h:42: error: expected ‘)’ before ‘PetscInt’
+In file included from /opt/software/petsc-3.9.3/include/petscvec.h:9,
+                 from /opt/software/petsc-3.9.3/include/petscmat.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscpc.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscksp.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscsnes.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscts.h:7,
+                 from /lustre/home/bogdan/eqSolver/build/CMakeFiles/CMakeTmp/src.c:3:
+/opt/software/petsc-3.9.3/include/petscis.h:94: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscis.h:95: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscis.h:99: error: expected declaration specifiers or ‘...’ before ‘MPI_Comm’
+/opt/software/petsc-3.9.3/include/petscis.h:131: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscis.h:153: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscis.h:179: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscis.h:181: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscis.h:202: error: expected specifier-qualifier-list before ‘MPI_Comm’
+/opt/software/petsc-3.9.3/include/petscis.h: In function ‘PetscLayoutFindOwner’:
+/opt/software/petsc-3.9.3/include/petscis.h:239: error: ‘struct _n_PetscLayout’ has no member named ‘n’
+/opt/software/petsc-3.9.3/include/petscis.h:239: error: ‘struct _n_PetscLayout’ has no member named ‘N’
+/opt/software/petsc-3.9.3/include/petscis.h:239: error: ‘struct _n_PetscLayout’ has no member named ‘range’
+/opt/software/petsc-3.9.3/include/petscis.h:239: error: ‘MPI_COMM_SELF’ undeclared (first use in this function)
+/opt/software/petsc-3.9.3/include/petscis.h:240: error: ‘struct _n_PetscLayout’ has no member named ‘N’
+/opt/software/petsc-3.9.3/include/petscis.h:241: error: ‘struct _n_PetscLayout’ has no member named ‘comm’
+/opt/software/petsc-3.9.3/include/petscis.h:244: error: ‘struct _n_PetscLayout’ has no member named ‘range’
+/opt/software/petsc-3.9.3/include/petscis.h: In function ‘PetscLayoutFindOwnerIndex’:
+/opt/software/petsc-3.9.3/include/petscis.h:276: error: ‘struct _n_PetscLayout’ has no member named ‘n’
+/opt/software/petsc-3.9.3/include/petscis.h:276: error: ‘struct _n_PetscLayout’ has no member named ‘N’
+/opt/software/petsc-3.9.3/include/petscis.h:276: error: ‘struct _n_PetscLayout’ has no member named ‘range’
+/opt/software/petsc-3.9.3/include/petscis.h:276: error: ‘MPI_COMM_SELF’ undeclared (first use in this function)
+/opt/software/petsc-3.9.3/include/petscis.h:277: error: ‘struct _n_PetscLayout’ has no member named ‘N’
+/opt/software/petsc-3.9.3/include/petscis.h:278: error: ‘struct _n_PetscLayout’ has no member named ‘comm’
+/opt/software/petsc-3.9.3/include/petscis.h:281: error: ‘struct _n_PetscLayout’ has no member named ‘range’
+/opt/software/petsc-3.9.3/include/petscis.h:285: error: ‘struct _n_PetscLayout’ has no member named ‘range’
+/opt/software/petsc-3.9.3/include/petscis.h: At top level:
+/opt/software/petsc-3.9.3/include/petscis.h:289: error: expected ‘)’ before ‘PetscLayout’
+/opt/software/petsc-3.9.3/include/petscis.h:308: error: expected ‘)’ before ‘PetscSection’
+/opt/software/petsc-3.9.3/include/petscis.h:358: error: expected ‘)’ before ‘PetscSection’
+/opt/software/petsc-3.9.3/include/petscis.h:359: error: expected ‘)’ before ‘PetscSection’
+/opt/software/petsc-3.9.3/include/petscis.h:387: error: expected ‘)’ before ‘PetscSectionSym’
+In file included from /opt/software/petsc-3.9.3/include/petscvec.h:10,
+                 from /opt/software/petsc-3.9.3/include/petscmat.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscpc.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscksp.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscsnes.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscts.h:7,
+                 from /lustre/home/bogdan/eqSolver/build/CMakeFiles/CMakeTmp/src.c:3:
+/opt/software/petsc-3.9.3/include/petscviewer.h:40: error: expected ‘)’ before ‘PetscViewer’
+/opt/software/petsc-3.9.3/include/petscviewer.h:42: error: expected ‘)’ before ‘FILE’
+/opt/software/petsc-3.9.3/include/petscviewer.h:44: error: expected ‘)’ before ‘const’
+/opt/software/petsc-3.9.3/include/petscviewer.h:46: error: expected ‘)’ before ‘const’
+/opt/software/petsc-3.9.3/include/petscviewer.h:52: error: expected declaration specifiers or ‘...’ before ‘MPI_File’
+/opt/software/petsc-3.9.3/include/petscviewer.h:53: error: expected declaration specifiers or ‘...’ before ‘MPI_Offset’
+/opt/software/petsc-3.9.3/include/petscviewer.h:54: error: expected declaration specifiers or ‘...’ before ‘MPI_Offset’
+/opt/software/petsc-3.9.3/include/petscviewer.h:57: error: expected ‘)’ before ‘const’
+/opt/software/petsc-3.9.3/include/petscviewer.h:58: error: expected ‘)’ before ‘char’
+/opt/software/petsc-3.9.3/include/petscviewer.h:59: error: expected ‘)’ before ‘const’
+/opt/software/petsc-3.9.3/include/petscviewer.h:70: error: expected ‘)’ before ‘int’
+/opt/software/petsc-3.9.3/include/petscviewer.h:71: error: expected ‘)’ before ‘const’
+/opt/software/petsc-3.9.3/include/petscviewer.h:72: error: expected ‘)’ before ‘const’
+/opt/software/petsc-3.9.3/include/petscviewer.h:82: error: expected ‘)’ before ‘PetscViewerGLVisType’
+In file included from /opt/software/petsc-3.9.3/include/petscvec.h:10,
+                 from /opt/software/petsc-3.9.3/include/petscmat.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscpc.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscksp.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscsnes.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscts.h:7,
+                 from /lustre/home/bogdan/eqSolver/build/CMakeFiles/CMakeTmp/src.c:3:
+/opt/software/petsc-3.9.3/include/petscviewer.h:90: error: expected declaration specifiers or ‘...’ before ‘MPI_Comm’
+/opt/software/petsc-3.9.3/include/petscviewer.h:91: error: expected declaration specifiers or ‘...’ before ‘MPI_Comm’
+/opt/software/petsc-3.9.3/include/petscviewer.h:156: error: expected ‘)’ before ‘const’
+/opt/software/petsc-3.9.3/include/petscviewer.h:235: error: expected ‘)’ before ‘const’
+/opt/software/petsc-3.9.3/include/petscviewer.h:240: warning: parameter names (without types) in function declaration
+/opt/software/petsc-3.9.3/include/petscviewer.h:241: error: expected ‘)’ before ‘PetscViewer’
+/opt/software/petsc-3.9.3/include/petscviewer.h:242: warning: parameter names (without types) in function declaration
+/opt/software/petsc-3.9.3/include/petscviewer.h:243: error: expected ‘)’ before ‘PetscViewer’
+/opt/software/petsc-3.9.3/include/petscviewer.h:244: warning: parameter names (without types) in function declaration
+/opt/software/petsc-3.9.3/include/petscviewer.h:245: warning: parameter names (without types) in function declaration
+/opt/software/petsc-3.9.3/include/petscviewer.h:246: warning: parameter names (without types) in function declaration
+/opt/software/petsc-3.9.3/include/petscviewer.h:247: warning: parameter names (without types) in function declaration
+/opt/software/petsc-3.9.3/include/petscviewer.h:248: warning: parameter names (without types) in function declaration
+/opt/software/petsc-3.9.3/include/petscviewer.h:249: warning: parameter names (without types) in function declaration
+/opt/software/petsc-3.9.3/include/petscviewer.h:355: error: expected ‘)’ before ‘PetscViewers’
+In file included from /opt/software/petsc-3.9.3/include/petscmat.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscpc.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscksp.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscsnes.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscts.h:7,
+                 from /lustre/home/bogdan/eqSolver/build/CMakeFiles/CMakeTmp/src.c:3:
+/opt/software/petsc-3.9.3/include/petscvec.h:142: error: expected ‘)’ before ‘Vec’
+/opt/software/petsc-3.9.3/include/petscvec.h:143: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscvec.h:144: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscvec.h:145: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscvec.h:146: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscvec.h:147: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscvec.h:148: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscvec.h:345: error: expected ‘)’ before ‘VecScatter’
+/opt/software/petsc-3.9.3/include/petscvec.h:435: warning: parameter names (without types) in function declaration
+/opt/software/petsc-3.9.3/include/petscvec.h: In function ‘VecGetArrayPair’:
+/opt/software/petsc-3.9.3/include/petscvec.h:475: error: ‘MPI_COMM_SELF’ undeclared (first use in this function)
+/opt/software/petsc-3.9.3/include/petscvec.h: In function ‘VecRestoreArrayPair’:
+/opt/software/petsc-3.9.3/include/petscvec.h:509: error: ‘MPI_COMM_SELF’ undeclared (first use in this function)
+/opt/software/petsc-3.9.3/include/petscvec.h: At top level:
+/opt/software/petsc-3.9.3/include/petscvec.h:542: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscvec.h:543: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscvec.h:544: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscvec.h:545: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscvec.h:595: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscvec.h:596: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscvec.h:626: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscvec.h:640: error: expected ‘)’ before ‘Vec’
+/opt/software/petsc-3.9.3/include/petscvec.h:672: error: expected ‘)’ before ‘VecTagger’
+In file included from /opt/software/petsc-3.9.3/include/petscpc.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscksp.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscsnes.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscts.h:7,
+                 from /lustre/home/bogdan/eqSolver/build/CMakeFiles/CMakeTmp/src.c:3:
+/opt/software/petsc-3.9.3/include/petscmat.h:185: error: expected ‘)’ before ‘Mat’
+/opt/software/petsc-3.9.3/include/petscmat.h:216: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscmat.h:217: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscmat.h:221: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscmat.h:222: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscmat.h:223: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscmat.h:224: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscmat.h:225: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscmat.h:226: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscmat.h:227: error: expected ‘)’ before ‘Mat’
+/opt/software/petsc-3.9.3/include/petscmat.h:229: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscmat.h:230: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscmat.h:231: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscmat.h:233: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscmat.h:234: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscmat.h:236: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscmat.h:237: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscmat.h:242: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscmat.h:247: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscmat.h:248: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscmat.h:249: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscmat.h:251: error: expected ‘)’ before ‘VecScatter’
+/opt/software/petsc-3.9.3/include/petscmat.h:254: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscmat.h:257: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscmat.h:261: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscmat.h:262: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscmat.h:553: error: expected ‘)’ before ‘Mat’
+/opt/software/petsc-3.9.3/include/petscmat.h:554: error: expected ‘)’ before ‘Mat’
+/opt/software/petsc-3.9.3/include/petscmat.h:610: error: expected declaration specifiers or ‘...’ before ‘MPI_Comm’
+/opt/software/petsc-3.9.3/include/petscmat.h:611: error: expected declaration specifiers or ‘...’ before ‘MPI_Comm’
+/opt/software/petsc-3.9.3/include/petscmat.h:614: error: expected ‘)’ before ‘Mat’
+/opt/software/petsc-3.9.3/include/petscmat.h:1011: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscmat.h:1012: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscmat.h:1013: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscmat.h:1014: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscmat.h:1328: error: expected ‘)’ before ‘MatPartitioning’
+/opt/software/petsc-3.9.3/include/petscmat.h:1595: error: expected ‘)’ before ‘PetscBool’
+/opt/software/petsc-3.9.3/include/petscmat.h:1624: error: expected ‘)’ before ‘PetscInt’
+/opt/software/petsc-3.9.3/include/petscmat.h:1804: error: expected ‘)’ before ‘PetscInt’
+In file included from /opt/software/petsc-3.9.3/include/petscksp.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscsnes.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscts.h:7,
+                 from /lustre/home/bogdan/eqSolver/build/CMakeFiles/CMakeTmp/src.c:3:
+/opt/software/petsc-3.9.3/include/petscpc.h:20: error: expected ‘)’ before ‘PC’
+In file included from /opt/software/petsc-3.9.3/include/petscksp.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscsnes.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscts.h:7,
+                 from /lustre/home/bogdan/eqSolver/build/CMakeFiles/CMakeTmp/src.c:3:
+/opt/software/petsc-3.9.3/include/petscpc.h:307: error: expected declaration specifiers or ‘...’ before ‘MPI_Comm’
+In file included from /opt/software/petsc-3.9.3/include/petscsnes.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscts.h:7,
+                 from /lustre/home/bogdan/eqSolver/build/CMakeFiles/CMakeTmp/src.c:3:
+/opt/software/petsc-3.9.3/include/petscksp.h:82: error: expected ‘)’ before ‘KSP’
+In file included from /opt/software/petsc-3.9.3/include/petscsnes.h:6,
+                 from /opt/software/petsc-3.9.3/include/petscts.h:7,
+                 from /lustre/home/bogdan/eqSolver/build/CMakeFiles/CMakeTmp/src.c:3:
+/opt/software/petsc-3.9.3/include/petscksp.h:632: error: expected ‘)’ before ‘const’
+/opt/software/petsc-3.9.3/include/petscksp.h:634: error: expected ‘)’ before ‘const’
+/opt/software/petsc-3.9.3/include/petscksp.h:665: error: expected ‘)’ before ‘KSPGuess’
+In file included from /opt/software/petsc-3.9.3/include/petscts.h:7,
+                 from /lustre/home/bogdan/eqSolver/build/CMakeFiles/CMakeTmp/src.c:3:
+/opt/software/petsc-3.9.3/include/petscsnes.h:56: error: expected ‘)’ before ‘SNES’
+In file included from /opt/software/petsc-3.9.3/include/petscts.h:7,
+                 from /lustre/home/bogdan/eqSolver/build/CMakeFiles/CMakeTmp/src.c:3:
+/opt/software/petsc-3.9.3/include/petscsnes.h:126: error: expected ‘)’ before ‘const’
+/opt/software/petsc-3.9.3/include/petscsnes.h:166: error: expected ‘)’ before ‘const’
+/opt/software/petsc-3.9.3/include/petscsnes.h:543: error: expected ‘)’ before ‘SNESLineSearch’
+/opt/software/petsc-3.9.3/include/petscsnes.h:831: error: expected declaration specifiers or ‘...’ before ‘MPI_Comm’
+In file included from /lustre/home/bogdan/eqSolver/build/CMakeFiles/CMakeTmp/src.c:3:
+/opt/software/petsc-3.9.3/include/petscts.h:219: error: expected ‘)’ before ‘TS’
+/opt/software/petsc-3.9.3/include/petscts.h:283: error: expected ‘)’ before ‘TSTrajectory’
+/opt/software/petsc-3.9.3/include/petscts.h:350: error: expected ‘)’ before ‘const’
+/opt/software/petsc-3.9.3/include/petscts.h:547: error: expected ‘)’ before ‘const’
+/opt/software/petsc-3.9.3/include/petscts.h:570: error: expected ‘)’ before ‘const’
+/opt/software/petsc-3.9.3/include/petscts.h:623: error: expected ‘)’ before ‘TSAdapt’
+/opt/software/petsc-3.9.3/include/petscts.h:676: error: expected ‘)’ before ‘TSGLLEAdapt’
+/lustre/home/bogdan/eqSolver/build/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/lustre/home/bogdan/eqSolver/build/CMakeFiles/CMakeTmp/src.c:8: error: ‘MPI_COMM_SELF’ undeclared (first use in this function)
+/lustre/home/bogdan/eqSolver/build/CMakeFiles/CMakeTmp/src.c:9: error: ‘PETSC_COMM_WORLD’ undeclared (first use in this function)
+gmake[1]: *** [CMakeFiles/cmTryCompileExec3278192084.dir/src.c.o] Error 1
+gmake[1]: Leaving directory `/lustre/home/bogdan/eqSolver/build/CMakeFiles/CMakeTmp'
+gmake: *** [cmTryCompileExec3278192084/fast] Error 2
+
+Return value: 1
+Source file was:
+
+static const char help[] = "PETSc test program.";
+#include <petscts.h>
+int main(int argc,char *argv[]) {
+  PetscErrorCode ierr;
+  TS ts;
+
+  ierr = PetscInitialize(&argc,&argv,0,help);CHKERRQ(ierr);
+  ierr = TSCreate(PETSC_COMM_WORLD,&ts);CHKERRQ(ierr);
+  ierr = TSSetFromOptions(ts);CHKERRQ(ierr);
+  ierr = TSDestroy(&ts);CHKERRQ(ierr);
+  ierr = PetscFinalize();CHKERRQ(ierr);
+  return 0;
+}
+
